@@ -1,0 +1,38 @@
+<!--
+TO DO
+	✓ Clean up code
+		✓ Country and capital methods in mapJs
+		✓ Separate style
+	✓ Format and prettify
+	✓ Accept alternative country names
+	✓ Make string formatting less of a nightmare
+	✓ Add unclicking
+	✓ TABLE
+		✓ Add table for displaying countries, capitals, and flags
+		✓ Make validation update these tables
+		- Make table not a piece of shit
+		- Don't redraw the whole table every friggin time
+	✓ Add option to need to click on things, or just to enter them and have the colors update themselves
+	✓ Add section for selecting flags
+	✓ Add missing countries
+	- Caps insensitive (an option?)
+	- Fix country data
+		- Capitals
+		- Encoding issues
+		- Accepted names
+	- Add other country info
+	- Change border color on correct guesses
+	✓ Format flags
+	- Add hide/show options for entry fields
+	- Add options menu (for what to hide / show by default) that saves via cookies
+	- Add stopwatch
+		- Keep track of acheivement times (all/half capitals, countries, flags, etc)
+	- Add other fields?
+		- Leader?
+		- Official Language?
+		- Currency?
+		- Display ISO codes?
+		- Link to website?
+
+
+-->

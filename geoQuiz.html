@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>World Geography Quiz</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="mapCss.css">
+
+</head>
+
+<body id="worldMapBody">
+	<!-- Navbar with Entry Fields -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li>
+            	<span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>
+		    	<input type="checkbox" name="requireClickCountry" id="requireClickCountry" value="requireClickCountry" tabindex="-1">
+		    	<label for="countryInput">Country: </label><input type="text" id="countryInput" name="countryInput" autocomplete="off" tabIndex="1">
+		    	<span id="correctCountries">0/252</span>
+            </li>
+            <li>
+				<span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>
+				<input type="checkbox" name="requireClickCapital" id="requireClickCapital" value="requireClickCapital" tabindex="-1">
+		    	<label for="capitalInput">Capital: </label><input type="text" id="capitalInput" name="capitalInput" autocomplete="off"  tabindex="1">
+		    	<span id="correctCapitals">0/252</span>
+            </li>
+            <li>
+            	<p style="font-size: 75%;">(<span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span> = Require clicking)</p> 
+            </li>
+            <li>
+            	<button type="button" id="revealButton">Show All Info</button>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Flags, map, and table -->
+    <div class="container-fluid">
+
+    	<div id="flagContainer">
+    		<span style="font-weight:bold">Flags:</span> <button type="button" id="flagDisplayButton">Show</button><span id="correctFlags">0/252</span>
+    		<div id="flags" style="display:none;"></div>
+    		<div id="flagCount"></div>
+    	</div>
+
+		<div id="mapContainer"></div>
+
+		<div class="table-responsive col-md-6 col-md-offset-3">
+	  		<table class="table table-bordered">
+			    <thead>
+			      <tr>
+			        <th>#</th>
+			        <th>Country</th>
+			        <th>Capital</th>
+			        <th>Flag</th>
+			      </tr>
+			    </thead>
+			    <tbody id="countriesTableBody">
+			    </tbody>
+		  	</table>
+		</div>
+
+	</div>
+
+	<!-- ***** Third-Party Libraries ***** -->
+	<!-- Lodash -->
+	<script src="https://cdn.jsdelivr.net/lodash/4.16.3/lodash.min.js"></script>
+	<!-- Handlebars -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+	<!-- d3 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+	<!-- topoJSON -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.20/topojson.min.js"></script>
+	<!-- jQuery -->
+	<script   src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<!-- DataMaps -->
+	<script src="datamaps.world.hires.js"></script>
+
+	<!-- ***** My Stuff ***** -->
+	<!-- Data for countries -->
+	<script src="countryData.js"></script>
+
+	<!-- Handlebars Templates -->
+	<script id="popupTemplate" type="text/x-handlebars-template">
+		<div class="hoverinfo" style="background-color:#e6e6e6">
+			<img src="./flags/{{iso2}}.png" height=50px>
+            <strong>{{countryName}}</strong>
+            <br>
+            Capital: <strong>{{capitalName}}</strong>
+        </div>
+	</script>
+
+	<script id="flagTemplate" type="text/x-handlebars-template">
+		<img id="{{iso3}}-flag" src="./flags/{{iso2}}.png" height=20px>
+	</script>
+
+	<script id="countryRowTemplate" type="text/x-handlebars-template">
+	    <tr class="{{rowClass}}">
+		    <td>{{number}}</td>
+		    <td class="{{countryCellClass}}">{{country}}</td>
+		    <td class="{{capitalCellClass}}">{{capital}}</td>
+		    <td class="{{flagCellClass}}" style="text-align:center">{{{flag}}}</td>
+	    </tr>
+	</script>
+	<!-- End Handlebars Templates -->
+
+	<!-- Code for the actual map -->
+	<script src="mapCode.js"></script>
+
+	<!-- Code for everything else -->
+	<script src="inputVerificationCode.js"></script>
+	
+</body>
+	
+</html>
