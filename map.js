@@ -73,11 +73,18 @@ var map = new Datamap({
 
 // returns an object of the colors for each country
 function getCountryColors(){
-	var colorMapping = {
+	var fillMapping = {
 		0: 'defaultFill', 
 		1: 'oneCorrect', 
 		2: 'twoCorrect', 
 		3: 'threeCorrect'
+	};
+
+	var strokeMapping = {
+		0: map.options.geographyConfig.borderColor, 
+		1: '#81b196', 
+		2: '#578e6f', 
+		3: '#446f56'
 	};
 
 	// Setting colors for each country
@@ -85,13 +92,15 @@ function getCountryColors(){
     _.each(countryData, function(country, key){
     	var guessedAmount = _.filter(country.guessed, function(guess) {return guess;}).length;
     	country.isClicked = false;
-    	countryColors[key] = {fillKey: colorMapping[guessedAmount]};
+    	countryColors[key] = {fillKey: fillMapping[guessedAmount]};
+    	countryColors[key].strokeColor = strokeMapping[guessedAmount];
     });
 
     // Set the color for the selected country and mark it as clicked
     if (selectedCode) {
     	countryData[selectedCode].isClicked = true;
     	countryColors[selectedCode] = {fillKey: 'highlighted'};
+    	countryColors[selectedCode].strokeColor = map.options.geographyConfig.highlightBorderColor;
 	}
 
     return countryColors;

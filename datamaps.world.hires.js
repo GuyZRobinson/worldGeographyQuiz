@@ -279,7 +279,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
             // If not clicked, also change fill
             if (!datum.isClicked){
-              $this.style('fill', val(datum.highlightFillColor, options.highlightFillColor, datum))
+              $this.style('fill', val(datum.highlightFillColor, options.highlightFillColor, datum));
             }
             // As per discussion on https://github.com/markmarkoh/datamaps/issues/19
             if ( ! /((MSIE)|(Trident))/.test(navigator.userAgent) ) {
@@ -295,6 +295,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
           var $this = d3.select(this);
           var datum = self.options.data[d.id] || {};
           var highlightColor = self.options.fills['highlighted'];
+          var highlightBorderColor = self.options.geographyConfig.highlightBorderColor;
 
           if (options.highlightOnHover) {
             // Reapply previous attributes
@@ -305,6 +306,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
             // But set color to yellow if clicked
             if (datum.isClicked) {
               $this.style('fill', val(highlightColor,highlightColor,datum));
+              $this.style('stroke', val(highlightBorderColor,highlightBorderColor,datum));
             }
           }
           $this.on('mousemove', null);
@@ -1073,7 +1075,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     for ( var subunit in data ) {
       if ( data.hasOwnProperty(subunit) ) {
         var color;
-        var subunitData = data[subunit]
+        var subunitData = data[subunit];
         if ( ! subunit ) {
           continue;
         }
@@ -1088,6 +1090,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         }
         else {
           color = this.options.fills[ subunitData.fillKey ];
+          stroke = subunitData.strokeColor;
         }
         // If it's an object, overriding the previous data
         if ( subunitData === Object(subunitData) ) {
@@ -1097,7 +1100,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         svg
           .selectAll('.' + subunit)
           .transition()
-            .style('fill', color);
+            .style('fill', color)
+            .style('stroke', stroke);
       }
     }
   };
