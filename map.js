@@ -83,10 +83,10 @@ function getCountryColors(){
 	// Setting colors for each country
     var countryColors = {};
     _.each(countryData, function(country, key){
-    	var guessedAmount = _.filter(country.guessed, function(guess) {return guess}).length;
+    	var guessedAmount = _.filter(country.guessed, function(guess) {return guess;}).length;
     	country.isClicked = false;
     	countryColors[key] = {fillKey: colorMapping[guessedAmount]};
-    })
+    });
 
     // Set the color for the selected country and mark it as clicked
     if (selectedCode) {

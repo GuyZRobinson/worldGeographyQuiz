@@ -1,7 +1,8 @@
 var countryData = {
     AFG: {
-        country: "Afghanistan",
-        capital: "Kabul",
+        country: ["Afghanistan"],
+        capital: ["Kabul"],
+        flag: ["AF"],
         iso2: "AF",
         iso3: "AFG",
         isClicked: false,
@@ -12,8 +13,9 @@ var countryData = {
         }
     },
     ALA: {
-        country: "Aland Islands",
-        capital: "Mariehamn",
+        country: ["Aland Islands"],
+        capital: ["Mariehamn"],
+        flag: ["AX"],
         iso2: "AX",
         iso3: "ALA",
         isClicked: false,
@@ -24,8 +26,9 @@ var countryData = {
         }
     },
     ALB: {
-        country: "Albania",
-        capital: "Tirana",
+        country: ["Albania"],
+        capital: ["Tirana"],
+        flag: ["AL"],
         iso2: "AL",
         iso3: "ALB",
         isClicked: false,
@@ -36,8 +39,9 @@ var countryData = {
         }
     },
     DZA: {
-        country: "Algeria",
-        capital: "Algiers",
+        country: ["Algeria"],
+        capital: ["Algiers"],
+        flag: ["DZ"],
         iso2: "DZ",
         iso3: "DZA",
         isClicked: false,
@@ -48,8 +52,9 @@ var countryData = {
         }
     },
     ASM: {
-        country: "American Samoa",
-        capital: "Pago Pago",
+        country: ["American Samoa"],
+        capital: ["Pago Pago"],
+        flag: ["AS"],
         iso2: "AS",
         iso3: "ASM",
         isClicked: false,
@@ -60,8 +65,9 @@ var countryData = {
         }
     },
     AND: {
-        country: "Andorra",
-        capital: "Andorra la Vella",
+        country: ["Andorra"],
+        capital: ["Andorra la Vella"],
+        flag: ["AD"],
         iso2: "AD",
         iso3: "AND",
         isClicked: false,
@@ -72,8 +78,9 @@ var countryData = {
         }
     },
     AGO: {
-        country: "Angola",
-        capital: "Luanda",
+        country: ["Angola"],
+        capital: ["Luanda"],
+        flag: ["AO"],
         iso2: "AO",
         iso3: "AGO",
         isClicked: false,
@@ -84,8 +91,9 @@ var countryData = {
         }
     },
     AIA: {
-        country: "Anguilla",
-        capital: "The Valley",
+        country: ["Anguilla"],
+        capital: ["The Valley"],
+        flag: ["AI"],
         iso2: "AI",
         iso3: "AIA",
         isClicked: false,
@@ -96,8 +104,9 @@ var countryData = {
         }
     },
     ATA: {
-        country: "Antarctica",
-        capital: "",
+        country: ["Antarctica"],
+        capital: [""],
+        flag: ["AQ"],
         iso2: "AQ",
         iso3: "ATA",
         isClicked: false,
@@ -108,8 +117,9 @@ var countryData = {
         }
     },
     ATG: {
-        country: "Antigua and Barbuda",
-        capital: "St. Johns",
+        country: ["Antigua and Barbuda"],
+        capital: ["St. Johns"],
+        flag: ["AG"],
         iso2: "AG",
         iso3: "ATG",
         isClicked: false,
@@ -120,8 +130,9 @@ var countryData = {
         }
     },
     ARG: {
-        country: "Argentina",
-        capital: "Buenos Aires",
+        country: ["Argentina"],
+        capital: ["Buenos Aires"],
+        flag: ["AR"],
         iso2: "AR",
         iso3: "ARG",
         isClicked: false,
@@ -132,8 +143,9 @@ var countryData = {
         }
     },
     ARM: {
-        country: "Armenia",
-        capital: "Yerevan",
+        country: ["Armenia"],
+        capital: ["Yerevan"],
+        flag: ["AM"],
         iso2: "AM",
         iso3: "ARM",
         isClicked: false,
@@ -144,8 +156,9 @@ var countryData = {
         }
     },
     ABW: {
-        country: "Aruba",
-        capital: "Oranjestad",
+        country: ["Aruba"],
+        capital: ["Oranjestad"],
+        flag: ["AW"],
         iso2: "AW",
         iso3: "ABW",
         isClicked: false,
@@ -156,8 +169,9 @@ var countryData = {
         }
     },
     AUS: {
-        country: "Australia",
-        capital: "Canberra",
+        country: ["Australia"],
+        capital: ["Canberra"],
+        flag: ["AU"],
         iso2: "AU",
         iso3: "AUS",
         isClicked: false,
@@ -168,8 +182,9 @@ var countryData = {
         }
     },
     AUT: {
-        country: "Austria",
-        capital: "Vienna",
+        country: ["Austria"],
+        capital: ["Vienna"],
+        flag: ["AT"],
         iso2: "AT",
         iso3: "AUT",
         isClicked: false,
@@ -180,8 +195,9 @@ var countryData = {
         }
     },
     AZE: {
-        country: "Azerbaijan",
-        capital: "Baku",
+        country: ["Azerbaijan"],
+        capital: ["Baku"],
+        flag: ["AZ"],
         iso2: "AZ",
         iso3: "AZE",
         isClicked: false,
@@ -192,8 +208,9 @@ var countryData = {
         }
     },
     BHS: {
-        country: "Bahamas",
-        capital: "Nassau",
+        country: ["Bahamas"],
+        capital: ["Nassau"],
+        flag: ["BS"],
         iso2: "BS",
         iso3: "BHS",
         isClicked: false,
@@ -204,8 +221,9 @@ var countryData = {
         }
     },
     BHR: {
-        country: "Bahrain",
-        capital: "Manama",
+        country: ["Bahrain"],
+        capital: ["Manama"],
+        flag: ["BH"],
         iso2: "BH",
         iso3: "BHR",
         isClicked: false,
@@ -216,8 +234,9 @@ var countryData = {
         }
     },
     BGD: {
-        country: "Bangladesh",
-        capital: "Dhaka",
+        country: ["Bangladesh"],
+        capital: ["Dhaka"],
+        flag: ["BD"],
         iso2: "BD",
         iso3: "BGD",
         isClicked: false,
@@ -228,8 +247,9 @@ var countryData = {
         }
     },
     BRB: {
-        country: "Barbados",
-        capital: "Bridgetown",
+        country: ["Barbados"],
+        capital: ["Bridgetown"],
+        flag: ["BB"],
         iso2: "BB",
         iso3: "BRB",
         isClicked: false,
@@ -240,8 +260,9 @@ var countryData = {
         }
     },
     BLR: {
-        country: "Belarus",
-        capital: "Minsk",
+        country: ["Belarus"],
+        capital: ["Minsk"],
+        flag: ["BY"],
         iso2: "BY",
         iso3: "BLR",
         isClicked: false,
@@ -252,8 +273,9 @@ var countryData = {
         }
     },
     BEL: {
-        country: "Belgium",
-        capital: "Brussels",
+        country: ["Belgium"],
+        capital: ["Brussels"],
+        flag: ["BE"],
         iso2: "BE",
         iso3: "BEL",
         isClicked: false,
@@ -264,8 +286,9 @@ var countryData = {
         }
     },
     BLZ: {
-        country: "Belize",
-        capital: "Belmopan",
+        country: ["Belize"],
+        capital: ["Belmopan"],
+        flag: ["BZ"],
         iso2: "BZ",
         iso3: "BLZ",
         isClicked: false,
@@ -276,8 +299,9 @@ var countryData = {
         }
     },
     BEN: {
-        country: "Benin",
-        capital: "Porto-Novo",
+        country: ["Benin"],
+        capital: ["Porto-Novo"],
+        flag: ["BJ"],
         iso2: "BJ",
         iso3: "BEN",
         isClicked: false,
@@ -288,8 +312,9 @@ var countryData = {
         }
     },
     BMU: {
-        country: "Bermuda",
-        capital: "Hamilton",
+        country: ["Bermuda"],
+        capital: ["Hamilton"],
+        flag: ["BM"],
         iso2: "BM",
         iso3: "BMU",
         isClicked: false,
@@ -300,8 +325,9 @@ var countryData = {
         }
     },
     BTN: {
-        country: "Bhutan",
-        capital: "Thimphu",
+        country: ["Bhutan"],
+        capital: ["Thimphu"],
+        flag: ["BT"],
         iso2: "BT",
         iso3: "BTN",
         isClicked: false,
@@ -312,8 +338,9 @@ var countryData = {
         }
     },
     BOL: {
-        country: "Bolivia",
-        capital: "Sucre",
+        country: ["Bolivia"],
+        capital: ["Sucre"],
+        flag: ["BO"],
         iso2: "BO",
         iso3: "BOL",
         isClicked: false,
@@ -324,8 +351,9 @@ var countryData = {
         }
     },
     BES: {
-        country: "Bonaire",
-        capital: "",
+        country: ["Bonaire"],
+        capital: [""],
+        flag: ["BQ"],
         iso2: "BQ",
         iso3: "BES",
         isClicked: false,
@@ -336,8 +364,9 @@ var countryData = {
         }
     },
     BIH: {
-        country: "Bosnia and Herzegovina",
-        capital: "Sarajevo",
+        country: ["Bosnia and Herzegovina"],
+        capital: ["Sarajevo"],
+        flag: ["BA"],
         iso2: "BA",
         iso3: "BIH",
         isClicked: false,
@@ -348,8 +377,9 @@ var countryData = {
         }
     },
     BWA: {
-        country: "Botswana",
-        capital: "Gaborone",
+        country: ["Botswana"],
+        capital: ["Gaborone"],
+        flag: ["BW"],
         iso2: "BW",
         iso3: "BWA",
         isClicked: false,
@@ -360,8 +390,9 @@ var countryData = {
         }
     },
     BVT: {
-        country: "Bouvet Island",
-        capital: "",
+        country: ["Bouvet Island"],
+        capital: [""],
+        flag: ["BV"],
         iso2: "BV",
         iso3: "BVT",
         isClicked: false,
@@ -372,8 +403,9 @@ var countryData = {
         }
     },
     BRA: {
-        country: "Brazil",
-        capital: "BrasÃ­lia",
+        country: ["Brazil"],
+        capital: ["BrasÃ­lia"],
+        flag: ["BR"],
         iso2: "BR",
         iso3: "BRA",
         isClicked: false,
@@ -384,8 +416,9 @@ var countryData = {
         }
     },
     IOT: {
-        country: "British Indian Ocean Territory",
-        capital: "",
+        country: ["British Indian Ocean Territory"],
+        capital: [""],
+        flag: ["IO"],
         iso2: "IO",
         iso3: "IOT",
         isClicked: false,
@@ -396,8 +429,9 @@ var countryData = {
         }
     },
     VGB: {
-        country: "British Virgin Islands",
-        capital: "Road Town",
+        country: ["British Virgin Islands"],
+        capital: ["Road Town"],
+        flag: ["VG"],
         iso2: "VG",
         iso3: "VGB",
         isClicked: false,
@@ -408,8 +442,9 @@ var countryData = {
         }
     },
     BRN: {
-        country: "Brunei Darussalam",
-        capital: "",
+        country: ["Brunei Darussalam"],
+        capital: [""],
+        flag: ["BN"],
         iso2: "BN",
         iso3: "BRN",
         isClicked: false,
@@ -420,8 +455,9 @@ var countryData = {
         }
     },
     BGR: {
-        country: "Bulgaria",
-        capital: "Sofia",
+        country: ["Bulgaria"],
+        capital: ["Sofia"],
+        flag: ["BG"],
         iso2: "BG",
         iso3: "BGR",
         isClicked: false,
@@ -432,8 +468,9 @@ var countryData = {
         }
     },
     BFA: {
-        country: "Burkina Faso",
-        capital: "Ouagadougou",
+        country: ["Burkina Faso"],
+        capital: ["Ouagadougou"],
+        flag: ["BF"],
         iso2: "BF",
         iso3: "BFA",
         isClicked: false,
@@ -444,8 +481,9 @@ var countryData = {
         }
     },
     BDI: {
-        country: "Burundi",
-        capital: "Bujumbura",
+        country: ["Burundi"],
+        capital: ["Bujumbura"],
+        flag: ["BI"],
         iso2: "BI",
         iso3: "BDI",
         isClicked: false,
@@ -456,8 +494,9 @@ var countryData = {
         }
     },
     KHM: {
-        country: "Cambodia",
-        capital: "Phnom Penh",
+        country: ["Cambodia"],
+        capital: ["Phnom Penh"],
+        flag: ["KH"],
         iso2: "KH",
         iso3: "KHM",
         isClicked: false,
@@ -468,8 +507,9 @@ var countryData = {
         }
     },
     CMR: {
-        country: "Cameroon",
-        capital: "YaoundÃ©",
+        country: ["Cameroon"],
+        capital: ["YaoundÃ©"],
+        flag: ["CM"],
         iso2: "CM",
         iso3: "CMR",
         isClicked: false,
@@ -480,8 +520,9 @@ var countryData = {
         }
     },
     CAN: {
-        country: "Canada",
-        capital: "Ottawa",
+        country: ["Canada"],
+        capital: ["Ottawa"],
+        flag: ["CA"],
         iso2: "CA",
         iso3: "CAN",
         isClicked: false,
@@ -492,8 +533,9 @@ var countryData = {
         }
     },
     CPV: {
-        country: "Cape Verde",
-        capital: "",
+        country: ["Cape Verde"],
+        capital: [""],
+        flag: ["CV"],
         iso2: "CV",
         iso3: "CPV",
         isClicked: false,
@@ -504,8 +546,9 @@ var countryData = {
         }
     },
     CYM: {
-        country: "Cayman Islands",
-        capital: "George Town",
+        country: ["Cayman Islands"],
+        capital: ["George Town"],
+        flag: ["KY"],
         iso2: "KY",
         iso3: "CYM",
         isClicked: false,
@@ -516,8 +559,9 @@ var countryData = {
         }
     },
     CAF: {
-        country: "Central African Republic",
-        capital: "Bangui",
+        country: ["Central African Republic"],
+        capital: ["Bangui"],
+        flag: ["CF"],
         iso2: "CF",
         iso3: "CAF",
         isClicked: false,
@@ -528,8 +572,9 @@ var countryData = {
         }
     },
     TCD: {
-        country: "Chad",
-        capital: "NDjamena",
+        country: ["Chad"],
+        capital: ["NDjamena"],
+        flag: ["TD"],
         iso2: "TD",
         iso3: "TCD",
         isClicked: false,
@@ -540,8 +585,9 @@ var countryData = {
         }
     },
     CHL: {
-        country: "Chile",
-        capital: "Santiago",
+        country: ["Chile"],
+        capital: ["Santiago"],
+        flag: ["CL"],
         iso2: "CL",
         iso3: "CHL",
         isClicked: false,
@@ -552,8 +598,9 @@ var countryData = {
         }
     },
     CHN: {
-        country: "China",
-        capital: "",
+        country: ["China"],
+        capital: [""],
+        flag: ["CN"],
         iso2: "CN",
         iso3: "CHN",
         isClicked: false,
@@ -564,8 +611,9 @@ var countryData = {
         }
     },
     CXR: {
-        country: "Christmas Island",
-        capital: "Flying Fish Cove",
+        country: ["Christmas Island"],
+        capital: ["Flying Fish Cove"],
+        flag: ["CX"],
         iso2: "CX",
         iso3: "CXR",
         isClicked: false,
@@ -576,8 +624,9 @@ var countryData = {
         }
     },
     CCK: {
-        country: "Cocos (Keeling) Islands",
-        capital: "West Island",
+        country: ["Cocos (Keeling) Islands"],
+        capital: ["West Island"],
+        flag: ["CC"],
         iso2: "CC",
         iso3: "CCK",
         isClicked: false,
@@ -588,8 +637,9 @@ var countryData = {
         }
     },
     COL: {
-        country: "Colombia",
-        capital: "BogotÃ¡",
+        country: ["Colombia"],
+        capital: ["BogotÃ¡"],
+        flag: ["CO"],
         iso2: "CO",
         iso3: "COL",
         isClicked: false,
@@ -600,8 +650,9 @@ var countryData = {
         }
     },
     COM: {
-        country: "Comoros",
-        capital: "Moroni",
+        country: ["Comoros"],
+        capital: ["Moroni"],
+        flag: ["KM"],
         iso2: "KM",
         iso3: "COM",
         isClicked: false,
@@ -612,8 +663,9 @@ var countryData = {
         }
     },
     COG: {
-        country: "Congo",
-        capital: "",
+        country: ["Congo"],
+        capital: [""],
+        flag: ["CG"],
         iso2: "CG",
         iso3: "COG",
         isClicked: false,
@@ -624,8 +676,9 @@ var countryData = {
         }
     },
     COK: {
-        country: "Cook Islands",
-        capital: "Avarua",
+        country: ["Cook Islands"],
+        capital: ["Avarua"],
+        flag: ["CK"],
         iso2: "CK",
         iso3: "COK",
         isClicked: false,
@@ -636,8 +689,9 @@ var countryData = {
         }
     },
     CRI: {
-        country: "Costa Rica",
-        capital: "San JosÃ©",
+        country: ["Costa Rica"],
+        capital: ["San JosÃ©"],
+        flag: ["CR"],
         iso2: "CR",
         iso3: "CRI",
         isClicked: false,
@@ -648,8 +702,9 @@ var countryData = {
         }
     },
     HRV: {
-        country: "Croatia",
-        capital: "Zagreb",
+        country: ["Croatia"],
+        capital: ["Zagreb"],
+        flag: ["HR"],
         iso2: "HR",
         iso3: "HRV",
         isClicked: false,
@@ -660,8 +715,9 @@ var countryData = {
         }
     },
     CUB: {
-        country: "Cuba",
-        capital: "Havana",
+        country: ["Cuba"],
+        capital: ["Havana"],
+        flag: ["CU"],
         iso2: "CU",
         iso3: "CUB",
         isClicked: false,
@@ -672,8 +728,9 @@ var countryData = {
         }
     },
     CUW: {
-        country: "CuraÃƒÂ§ao",
-        capital: "",
+        country: ["CuraÃƒÂ§ao"],
+        capital: [""],
+        flag: ["CW"],
         iso2: "CW",
         iso3: "CUW",
         isClicked: false,
@@ -684,8 +741,9 @@ var countryData = {
         }
     },
     CYP: {
-        country: "Cyprus",
-        capital: "Nicosia",
+        country: ["Cyprus"],
+        capital: ["Nicosia"],
+        flag: ["CY"],
         iso2: "CY",
         iso3: "CYP",
         isClicked: false,
@@ -696,8 +754,9 @@ var countryData = {
         }
     },
     CZE: {
-        country: "Czech Republic",
-        capital: "Prague",
+        country: ["Czech Republic"],
+        capital: ["Prague"],
+        flag: ["CZ"],
         iso2: "CZ",
         iso3: "CZE",
         isClicked: false,
@@ -708,8 +767,9 @@ var countryData = {
         }
     },
     CIV: {
-        country: "Cote dIvoire",
-        capital: "",
+        country: ["Cote dIvoire"],
+        capital: [""],
+        flag: ["CI"],
         iso2: "CI",
         iso3: "CIV",
         isClicked: false,
@@ -720,8 +780,9 @@ var countryData = {
         }
     },
     COD: {
-        country: "Democratic Republic of the Congo",
-        capital: "Kinshasa",
+        country: ["Democratic Republic of the Congo"],
+        capital: ["Kinshasa"],
+        flag: ["CD"],
         iso2: "CD",
         iso3: "COD",
         isClicked: false,
@@ -732,8 +793,9 @@ var countryData = {
         }
     },
     DNK: {
-        country: "Denmark",
-        capital: "Copenhagen",
+        country: ["Denmark"],
+        capital: ["Copenhagen"],
+        flag: ["DK"],
         iso2: "DK",
         iso3: "DNK",
         isClicked: false,
@@ -744,8 +806,9 @@ var countryData = {
         }
     },
     DJI: {
-        country: "Djibouti",
-        capital: "Djibouti",
+        country: ["Djibouti"],
+        capital: ["Djibouti"],
+        flag: ["DJ"],
         iso2: "DJ",
         iso3: "DJI",
         isClicked: false,
@@ -756,8 +819,9 @@ var countryData = {
         }
     },
     DMA: {
-        country: "Dominica",
-        capital: "Roseau",
+        country: ["Dominica"],
+        capital: ["Roseau"],
+        flag: ["DM"],
         iso2: "DM",
         iso3: "DMA",
         isClicked: false,
@@ -768,8 +832,9 @@ var countryData = {
         }
     },
     DOM: {
-        country: "Dominican Republic",
-        capital: "Santo Domingo",
+        country: ["Dominican Republic"],
+        capital: ["Santo Domingo"],
+        flag: ["DO"],
         iso2: "DO",
         iso3: "DOM",
         isClicked: false,
@@ -780,8 +845,9 @@ var countryData = {
         }
     },
     ECU: {
-        country: "Ecuador",
-        capital: "Quito",
+        country: ["Ecuador"],
+        capital: ["Quito"],
+        flag: ["EC"],
         iso2: "EC",
         iso3: "ECU",
         isClicked: false,
@@ -792,8 +858,9 @@ var countryData = {
         }
     },
     EGY: {
-        country: "Egypt",
-        capital: "Cairo",
+        country: ["Egypt"],
+        capital: ["Cairo"],
+        flag: ["EG"],
         iso2: "EG",
         iso3: "EGY",
         isClicked: false,
@@ -804,8 +871,9 @@ var countryData = {
         }
     },
     SLV: {
-        country: "El Salvador",
-        capital: "San Salvador",
+        country: ["El Salvador"],
+        capital: ["San Salvador"],
+        flag: ["SV"],
         iso2: "SV",
         iso3: "SLV",
         isClicked: false,
@@ -816,8 +884,9 @@ var countryData = {
         }
     },
     GNQ: {
-        country: "Equatorial Guinea",
-        capital: "Malabo",
+        country: ["Equatorial Guinea"],
+        capital: ["Malabo"],
+        flag: ["GQ"],
         iso2: "GQ",
         iso3: "GNQ",
         isClicked: false,
@@ -828,8 +897,9 @@ var countryData = {
         }
     },
     ERI: {
-        country: "Eritrea",
-        capital: "Asmara",
+        country: ["Eritrea"],
+        capital: ["Asmara"],
+        flag: ["ER"],
         iso2: "ER",
         iso3: "ERI",
         isClicked: false,
@@ -840,8 +910,9 @@ var countryData = {
         }
     },
     EST: {
-        country: "Estonia",
-        capital: "Tallinn",
+        country: ["Estonia"],
+        capital: ["Tallinn"],
+        flag: ["EE"],
         iso2: "EE",
         iso3: "EST",
         isClicked: false,
@@ -852,8 +923,9 @@ var countryData = {
         }
     },
     ETH: {
-        country: "Ethiopia",
-        capital: "Addis Ababa",
+        country: ["Ethiopia"],
+        capital: ["Addis Ababa"],
+        flag: ["ET"],
         iso2: "ET",
         iso3: "ETH",
         isClicked: false,
@@ -864,8 +936,9 @@ var countryData = {
         }
     },
     FLK: {
-        country: "Falkland Islands (Malvinas)",
-        capital: "",
+        country: ["Falkland Islands (Malvinas)"],
+        capital: [""],
+        flag: ["FK"],
         iso2: "FK",
         iso3: "FLK",
         isClicked: false,
@@ -876,8 +949,9 @@ var countryData = {
         }
     },
     FRO: {
-        country: "Faroe Islands",
-        capital: "TÃ³rshavn",
+        country: ["Faroe Islands"],
+        capital: ["TÃ³rshavn"],
+        flag: ["FO"],
         iso2: "FO",
         iso3: "FRO",
         isClicked: false,
@@ -888,8 +962,9 @@ var countryData = {
         }
     },
     FJI: {
-        country: "Fiji",
-        capital: "Suva",
+        country: ["Fiji"],
+        capital: ["Suva"],
+        flag: ["FJ"],
         iso2: "FJ",
         iso3: "FJI",
         isClicked: false,
@@ -900,8 +975,9 @@ var countryData = {
         }
     },
     FIN: {
-        country: "Finland",
-        capital: "Helsinki",
+        country: ["Finland"],
+        capital: ["Helsinki"],
+        flag: ["FI"],
         iso2: "FI",
         iso3: "FIN",
         isClicked: false,
@@ -912,8 +988,9 @@ var countryData = {
         }
     },
     FRA: {
-        country: "France",
-        capital: "Paris",
+        country: ["France"],
+        capital: ["Paris"],
+        flag: ["FR"],
         iso2: "FR",
         iso3: "FRA",
         isClicked: false,
@@ -924,8 +1001,9 @@ var countryData = {
         }
     },
     GUF: {
-        country: "French Guiana",
-        capital: "Cayenne",
+        country: ["French Guiana"],
+        capital: ["Cayenne"],
+        flag: ["GF"],
         iso2: "GF",
         iso3: "GUF",
         isClicked: false,
@@ -936,8 +1014,9 @@ var countryData = {
         }
     },
     PYF: {
-        country: "French Polynesia",
-        capital: "Papeete",
+        country: ["French Polynesia"],
+        capital: ["Papeete"],
+        flag: ["PF"],
         iso2: "PF",
         iso3: "PYF",
         isClicked: false,
@@ -948,8 +1027,9 @@ var countryData = {
         }
     },
     ATF: {
-        country: "French Southern Territories",
-        capital: "",
+        country: ["French Southern Territories"],
+        capital: [""],
+        flag: ["TF"],
         iso2: "TF",
         iso3: "ATF",
         isClicked: false,
@@ -960,8 +1040,9 @@ var countryData = {
         }
     },
     GAB: {
-        country: "Gabon",
-        capital: "Libreville",
+        country: ["Gabon"],
+        capital: ["Libreville"],
+        flag: ["GA"],
         iso2: "GA",
         iso3: "GAB",
         isClicked: false,
@@ -972,8 +1053,9 @@ var countryData = {
         }
     },
     GMB: {
-        country: "Gambia",
-        capital: "Banjul",
+        country: ["Gambia"],
+        capital: ["Banjul"],
+        flag: ["GM"],
         iso2: "GM",
         iso3: "GMB",
         isClicked: false,
@@ -984,8 +1066,9 @@ var countryData = {
         }
     },
     GEO: {
-        country: "Georgia",
-        capital: "Tbilisi",
+        country: ["Georgia"],
+        capital: ["Tbilisi"],
+        flag: ["GE"],
         iso2: "GE",
         iso3: "GEO",
         isClicked: false,
@@ -996,8 +1079,9 @@ var countryData = {
         }
     },
     DEU: {
-        country: "Germany",
-        capital: "Berlin",
+        country: ["Germany"],
+        capital: ["Berlin"],
+        flag: ["DE"],
         iso2: "DE",
         iso3: "DEU",
         isClicked: false,
@@ -1008,8 +1092,9 @@ var countryData = {
         }
     },
     GHA: {
-        country: "Ghana",
-        capital: "Accra",
+        country: ["Ghana"],
+        capital: ["Accra"],
+        flag: ["GH"],
         iso2: "GH",
         iso3: "GHA",
         isClicked: false,
@@ -1020,8 +1105,9 @@ var countryData = {
         }
     },
     GIB: {
-        country: "Gibraltar",
-        capital: "Gibraltar",
+        country: ["Gibraltar"],
+        capital: ["Gibraltar"],
+        flag: ["GI"],
         iso2: "GI",
         iso3: "GIB",
         isClicked: false,
@@ -1032,8 +1118,9 @@ var countryData = {
         }
     },
     GRC: {
-        country: "Greece",
-        capital: "Athens",
+        country: ["Greece"],
+        capital: ["Athens"],
+        flag: ["GR"],
         iso2: "GR",
         iso3: "GRC",
         isClicked: false,
@@ -1044,8 +1131,9 @@ var countryData = {
         }
     },
     GRL: {
-        country: "Greenland",
-        capital: "Nuuk",
+        country: ["Greenland"],
+        capital: ["Nuuk"],
+        flag: ["GL"],
         iso2: "GL",
         iso3: "GRL",
         isClicked: false,
@@ -1056,8 +1144,9 @@ var countryData = {
         }
     },
     GRD: {
-        country: "Grenada",
-        capital: "St. Georges",
+        country: ["Grenada"],
+        capital: ["St. Georges"],
+        flag: ["GD"],
         iso2: "GD",
         iso3: "GRD",
         isClicked: false,
@@ -1068,8 +1157,9 @@ var countryData = {
         }
     },
     GLP: {
-        country: "Guadeloupe",
-        capital: "Basse-Terre",
+        country: ["Guadeloupe"],
+        capital: ["Basse-Terre"],
+        flag: ["GP"],
         iso2: "GP",
         iso3: "GLP",
         isClicked: false,
@@ -1080,8 +1170,9 @@ var countryData = {
         }
     },
     GUM: {
-        country: "Guam",
-        capital: "HagÃ¥tÃ±a",
+        country: ["Guam"],
+        capital: ["HagÃ¥tÃ±a"],
+        flag: ["GU"],
         iso2: "GU",
         iso3: "GUM",
         isClicked: false,
@@ -1092,8 +1183,9 @@ var countryData = {
         }
     },
     GTM: {
-        country: "Guatemala",
-        capital: "Guatemala City",
+        country: ["Guatemala"],
+        capital: ["Guatemala City"],
+        flag: ["GT"],
         iso2: "GT",
         iso3: "GTM",
         isClicked: false,
@@ -1104,8 +1196,9 @@ var countryData = {
         }
     },
     GGY: {
-        country: "Guernsey",
-        capital: "St. Peter Port",
+        country: ["Guernsey"],
+        capital: ["St. Peter Port"],
+        flag: ["GG"],
         iso2: "GG",
         iso3: "GGY",
         isClicked: false,
@@ -1116,8 +1209,9 @@ var countryData = {
         }
     },
     GIN: {
-        country: "Guinea",
-        capital: "Conakry",
+        country: ["Guinea"],
+        capital: ["Conakry"],
+        flag: ["GN"],
         iso2: "GN",
         iso3: "GIN",
         isClicked: false,
@@ -1128,8 +1222,9 @@ var countryData = {
         }
     },
     GNB: {
-        country: "Guinea-Bissau",
-        capital: "Bissau",
+        country: ["Guinea-Bissau"],
+        capital: ["Bissau"],
+        flag: ["GW"],
         iso2: "GW",
         iso3: "GNB",
         isClicked: false,
@@ -1140,8 +1235,9 @@ var countryData = {
         }
     },
     GUY: {
-        country: "Guyana",
-        capital: "Georgetown",
+        country: ["Guyana"],
+        capital: ["Georgetown"],
+        flag: ["GY"],
         iso2: "GY",
         iso3: "GUY",
         isClicked: false,
@@ -1152,8 +1248,9 @@ var countryData = {
         }
     },
     HTI: {
-        country: "Haiti",
-        capital: "Port-au-Prince",
+        country: ["Haiti"],
+        capital: ["Port-au-Prince"],
+        flag: ["HT"],
         iso2: "HT",
         iso3: "HTI",
         isClicked: false,
@@ -1164,8 +1261,9 @@ var countryData = {
         }
     },
     HMD: {
-        country: "Heard Island and McDonald Mcdonald Islands",
-        capital: "",
+        country: ["Heard Island and McDonald Mcdonald Islands"],
+        capital: [""],
+        flag: ["HM"],
         iso2: "HM",
         iso3: "HMD",
         isClicked: false,
@@ -1176,8 +1274,9 @@ var countryData = {
         }
     },
     VAT: {
-        country: "Holy See (Vatican City State)",
-        capital: "",
+        country: ["Holy See (Vatican City State)"],
+        capital: [""],
+        flag: ["VA"],
         iso2: "VA",
         iso3: "VAT",
         isClicked: false,
@@ -1188,8 +1287,9 @@ var countryData = {
         }
     },
     HND: {
-        country: "Honduras",
-        capital: "Tegucigalpa",
+        country: ["Honduras"],
+        capital: ["Tegucigalpa"],
+        flag: ["HN"],
         iso2: "HN",
         iso3: "HND",
         isClicked: false,
@@ -1200,8 +1300,9 @@ var countryData = {
         }
     },
     HKG: {
-        country: "Hong Kong",
-        capital: "Hong Kong",
+        country: ["Hong Kong"],
+        capital: ["Hong Kong"],
+        flag: ["HK"],
         iso2: "HK",
         iso3: "HKG",
         isClicked: false,
@@ -1212,8 +1313,9 @@ var countryData = {
         }
     },
     HUN: {
-        country: "Hungary",
-        capital: "Budapest",
+        country: ["Hungary"],
+        capital: ["Budapest"],
+        flag: ["HU"],
         iso2: "HU",
         iso3: "HUN",
         isClicked: false,
@@ -1224,8 +1326,9 @@ var countryData = {
         }
     },
     ISL: {
-        country: "Iceland",
-        capital: "ReykjavÃ­k",
+        country: ["Iceland"],
+        capital: ["ReykjavÃ­k"],
+        flag: ["IS"],
         iso2: "IS",
         iso3: "ISL",
         isClicked: false,
@@ -1236,8 +1339,9 @@ var countryData = {
         }
     },
     IND: {
-        country: "India",
-        capital: "New Delhi",
+        country: ["India"],
+        capital: ["New Delhi"],
+        flag: ["IN"],
         iso2: "IN",
         iso3: "IND",
         isClicked: false,
@@ -1248,8 +1352,9 @@ var countryData = {
         }
     },
     IDN: {
-        country: "Indonesia",
-        capital: "Jakarta",
+        country: ["Indonesia"],
+        capital: ["Jakarta"],
+        flag: ["ID"],
         iso2: "ID",
         iso3: "IDN",
         isClicked: false,
@@ -1260,8 +1365,9 @@ var countryData = {
         }
     },
     IRN: {
-        country: "Iran, Islamic Republic of",
-        capital: "",
+        country: ["Iran, Islamic Republic of"],
+        capital: [""],
+        flag: ["IR"],
         iso2: "IR",
         iso3: "IRN",
         isClicked: false,
@@ -1272,8 +1378,9 @@ var countryData = {
         }
     },
     IRQ: {
-        country: "Iraq",
-        capital: "Baghdad",
+        country: ["Iraq"],
+        capital: ["Baghdad"],
+        flag: ["IQ"],
         iso2: "IQ",
         iso3: "IRQ",
         isClicked: false,
@@ -1284,8 +1391,9 @@ var countryData = {
         }
     },
     IRL: {
-        country: "Ireland",
-        capital: "Dublin",
+        country: ["Ireland"],
+        capital: ["Dublin"],
+        flag: ["IE"],
         iso2: "IE",
         iso3: "IRL",
         isClicked: false,
@@ -1296,8 +1404,9 @@ var countryData = {
         }
     },
     IMN: {
-        country: "Isle of Man",
-        capital: "Douglas",
+        country: ["Isle of Man"],
+        capital: ["Douglas"],
+        flag: ["IM"],
         iso2: "IM",
         iso3: "IMN",
         isClicked: false,
@@ -1308,8 +1417,9 @@ var countryData = {
         }
     },
     ISR: {
-        country: "Israel",
-        capital: "Jerusalem",
+        country: ["Israel"],
+        capital: ["Jerusalem"],
+        flag: ["IL"],
         iso2: "IL",
         iso3: "ISR",
         isClicked: false,
@@ -1320,8 +1430,9 @@ var countryData = {
         }
     },
     ITA: {
-        country: "Italy",
-        capital: "Rome",
+        country: ["Italy"],
+        capital: ["Rome"],
+        flag: ["IT"],
         iso2: "IT",
         iso3: "ITA",
         isClicked: false,
@@ -1332,8 +1443,9 @@ var countryData = {
         }
     },
     JAM: {
-        country: "Jamaica",
-        capital: "Kingston",
+        country: ["Jamaica"],
+        capital: ["Kingston"],
+        flag: ["JM"],
         iso2: "JM",
         iso3: "JAM",
         isClicked: false,
@@ -1344,8 +1456,9 @@ var countryData = {
         }
     },
     JPN: {
-        country: "Japan",
-        capital: "Tokyo",
+        country: ["Japan"],
+        capital: ["Tokyo"],
+        flag: ["JP"],
         iso2: "JP",
         iso3: "JPN",
         isClicked: false,
@@ -1356,8 +1469,9 @@ var countryData = {
         }
     },
     JEY: {
-        country: "Jersey",
-        capital: "St. Helier",
+        country: ["Jersey"],
+        capital: ["St. Helier"],
+        flag: ["JE"],
         iso2: "JE",
         iso3: "JEY",
         isClicked: false,
@@ -1368,8 +1482,9 @@ var countryData = {
         }
     },
     JOR: {
-        country: "Jordan",
-        capital: "Amman",
+        country: ["Jordan"],
+        capital: ["Amman"],
+        flag: ["JO"],
         iso2: "JO",
         iso3: "JOR",
         isClicked: false,
@@ -1380,8 +1495,9 @@ var countryData = {
         }
     },
     KAZ: {
-        country: "Kazakhstan",
-        capital: "Astana",
+        country: ["Kazakhstan"],
+        capital: ["Astana"],
+        flag: ["KZ"],
         iso2: "KZ",
         iso3: "KAZ",
         isClicked: false,
@@ -1392,8 +1508,9 @@ var countryData = {
         }
     },
     KEN: {
-        country: "Kenya",
-        capital: "Nairobi",
+        country: ["Kenya"],
+        capital: ["Nairobi"],
+        flag: ["KE"],
         iso2: "KE",
         iso3: "KEN",
         isClicked: false,
@@ -1404,8 +1521,9 @@ var countryData = {
         }
     },
     KIR: {
-        country: "Kiribati",
-        capital: "Tarawa",
+        country: ["Kiribati"],
+        capital: ["Tarawa"],
+        flag: ["KI"],
         iso2: "KI",
         iso3: "KIR",
         isClicked: false,
@@ -1416,8 +1534,9 @@ var countryData = {
         }
     },
     PRK: {
-        country: "Korea, Democratic Peoples Republic of",
-        capital: "",
+        country: ["Korea, Democratic Peoples Republic of"],
+        capital: [""],
+        flag: ["KP"],
         iso2: "KP",
         iso3: "PRK",
         isClicked: false,
@@ -1428,8 +1547,9 @@ var countryData = {
         }
     },
     KOR: {
-        country: "Korea, Republic of",
-        capital: "",
+        country: ["Korea, Republic of"],
+        capital: [""],
+        flag: ["KR"],
         iso2: "KR",
         iso3: "KOR",
         isClicked: false,
@@ -1440,8 +1560,9 @@ var countryData = {
         }
     },
     KWT: {
-        country: "Kuwait",
-        capital: "Kuwait City",
+        country: ["Kuwait"],
+        capital: ["Kuwait City"],
+        flag: ["KW"],
         iso2: "KW",
         iso3: "KWT",
         isClicked: false,
@@ -1452,8 +1573,9 @@ var countryData = {
         }
     },
     KGZ: {
-        country: "Kyrgyzstan",
-        capital: "Bishkek",
+        country: ["Kyrgyzstan"],
+        capital: ["Bishkek"],
+        flag: ["KG"],
         iso2: "KG",
         iso3: "KGZ",
         isClicked: false,
@@ -1464,8 +1586,9 @@ var countryData = {
         }
     },
     LAO: {
-        country: "Lao Peoples Democratic Republic",
-        capital: "",
+        country: ["Lao Peoples Democratic Republic"],
+        capital: [""],
+        flag: ["LA"],
         iso2: "LA",
         iso3: "LAO",
         isClicked: false,
@@ -1476,8 +1599,9 @@ var countryData = {
         }
     },
     LVA: {
-        country: "Latvia",
-        capital: "Riga",
+        country: ["Latvia"],
+        capital: ["Riga"],
+        flag: ["LV"],
         iso2: "LV",
         iso3: "LVA",
         isClicked: false,
@@ -1488,8 +1612,9 @@ var countryData = {
         }
     },
     LBN: {
-        country: "Lebanon",
-        capital: "Beirut",
+        country: ["Lebanon"],
+        capital: ["Beirut"],
+        flag: ["LB"],
         iso2: "LB",
         iso3: "LBN",
         isClicked: false,
@@ -1500,8 +1625,9 @@ var countryData = {
         }
     },
     LSO: {
-        country: "Lesotho",
-        capital: "Maseru",
+        country: ["Lesotho"],
+        capital: ["Maseru"],
+        flag: ["LS"],
         iso2: "LS",
         iso3: "LSO",
         isClicked: false,
@@ -1512,8 +1638,9 @@ var countryData = {
         }
     },
     LBR: {
-        country: "Liberia",
-        capital: "Monrovia",
+        country: ["Liberia"],
+        capital: ["Monrovia"],
+        flag: ["LR"],
         iso2: "LR",
         iso3: "LBR",
         isClicked: false,
@@ -1524,8 +1651,9 @@ var countryData = {
         }
     },
     LBY: {
-        country: "Libya",
-        capital: "Tripoli",
+        country: ["Libya"],
+        capital: ["Tripoli"],
+        flag: ["LY"],
         iso2: "LY",
         iso3: "LBY",
         isClicked: false,
@@ -1536,8 +1664,9 @@ var countryData = {
         }
     },
     LIE: {
-        country: "Liechtenstein",
-        capital: "Vaduz",
+        country: ["Liechtenstein"],
+        capital: ["Vaduz"],
+        flag: ["LI"],
         iso2: "LI",
         iso3: "LIE",
         isClicked: false,
@@ -1548,8 +1677,9 @@ var countryData = {
         }
     },
     LTU: {
-        country: "Lithuania",
-        capital: "Vilnius",
+        country: ["Lithuania"],
+        capital: ["Vilnius"],
+        flag: ["LT"],
         iso2: "LT",
         iso3: "LTU",
         isClicked: false,
@@ -1560,8 +1690,9 @@ var countryData = {
         }
     },
     LUX: {
-        country: "Luxembourg",
-        capital: "Luxembourg",
+        country: ["Luxembourg"],
+        capital: ["Luxembourg"],
+        flag: ["LU"],
         iso2: "LU",
         iso3: "LUX",
         isClicked: false,
@@ -1572,8 +1703,9 @@ var countryData = {
         }
     },
     MAC: {
-        country: "Macao",
-        capital: "",
+        country: ["Macao"],
+        capital: [""],
+        flag: ["MO"],
         iso2: "MO",
         iso3: "MAC",
         isClicked: false,
@@ -1584,8 +1716,9 @@ var countryData = {
         }
     },
     MKD: {
-        country: "Macedonia, the Former Yugoslav Republic of",
-        capital: "",
+        country: ["Macedonia, the Former Yugoslav Republic of"],
+        capital: [""],
+        flag: ["MK"],
         iso2: "MK",
         iso3: "MKD",
         isClicked: false,
@@ -1596,8 +1729,9 @@ var countryData = {
         }
     },
     MDG: {
-        country: "Madagascar",
-        capital: "Antananarivo",
+        country: ["Madagascar"],
+        capital: ["Antananarivo"],
+        flag: ["MG"],
         iso2: "MG",
         iso3: "MDG",
         isClicked: false,
@@ -1608,8 +1742,9 @@ var countryData = {
         }
     },
     MWI: {
-        country: "Malawi",
-        capital: "Lilongwe",
+        country: ["Malawi"],
+        capital: ["Lilongwe"],
+        flag: ["MW"],
         iso2: "MW",
         iso3: "MWI",
         isClicked: false,
@@ -1620,8 +1755,9 @@ var countryData = {
         }
     },
     MYS: {
-        country: "Malaysia",
-        capital: "Kuala Lumpur",
+        country: ["Malaysia"],
+        capital: ["Kuala Lumpur"],
+        flag: ["MY"],
         iso2: "MY",
         iso3: "MYS",
         isClicked: false,
@@ -1632,8 +1768,9 @@ var countryData = {
         }
     },
     MDV: {
-        country: "Maldives",
-        capital: "MalÃ©",
+        country: ["Maldives"],
+        capital: ["MalÃ©"],
+        flag: ["MV"],
         iso2: "MV",
         iso3: "MDV",
         isClicked: false,
@@ -1644,8 +1781,9 @@ var countryData = {
         }
     },
     MLI: {
-        country: "Mali",
-        capital: "Bamako",
+        country: ["Mali"],
+        capital: ["Bamako"],
+        flag: ["ML"],
         iso2: "ML",
         iso3: "MLI",
         isClicked: false,
@@ -1656,8 +1794,9 @@ var countryData = {
         }
     },
     MLT: {
-        country: "Malta",
-        capital: "Valletta",
+        country: ["Malta"],
+        capital: ["Valletta"],
+        flag: ["MT"],
         iso2: "MT",
         iso3: "MLT",
         isClicked: false,
@@ -1668,8 +1807,9 @@ var countryData = {
         }
     },
     MHL: {
-        country: "Marshall Islands",
-        capital: "Majuro",
+        country: ["Marshall Islands"],
+        capital: ["Majuro"],
+        flag: ["MH"],
         iso2: "MH",
         iso3: "MHL",
         isClicked: false,
@@ -1680,8 +1820,9 @@ var countryData = {
         }
     },
     MTQ: {
-        country: "Martinique",
-        capital: "Fort-de-France",
+        country: ["Martinique"],
+        capital: ["Fort-de-France"],
+        flag: ["MQ"],
         iso2: "MQ",
         iso3: "MTQ",
         isClicked: false,
@@ -1692,8 +1833,9 @@ var countryData = {
         }
     },
     MRT: {
-        country: "Mauritania",
-        capital: "Nouakchott",
+        country: ["Mauritania"],
+        capital: ["Nouakchott"],
+        flag: ["MR"],
         iso2: "MR",
         iso3: "MRT",
         isClicked: false,
@@ -1704,8 +1846,9 @@ var countryData = {
         }
     },
     MUS: {
-        country: "Mauritius",
-        capital: "Port Louis",
+        country: ["Mauritius"],
+        capital: ["Port Louis"],
+        flag: ["MU"],
         iso2: "MU",
         iso3: "MUS",
         isClicked: false,
@@ -1716,8 +1859,9 @@ var countryData = {
         }
     },
     MYT: {
-        country: "Mayotte",
-        capital: "Mamoudzou",
+        country: ["Mayotte"],
+        capital: ["Mamoudzou"],
+        flag: ["YT"],
         iso2: "YT",
         iso3: "MYT",
         isClicked: false,
@@ -1728,8 +1872,9 @@ var countryData = {
         }
     },
     MEX: {
-        country: "Mexico",
-        capital: "Mexico City",
+        country: ["Mexico"],
+        capital: ["Mexico City"],
+        flag: ["MX"],
         iso2: "MX",
         iso3: "MEX",
         isClicked: false,
@@ -1740,8 +1885,9 @@ var countryData = {
         }
     },
     FSM: {
-        country: "Micronesia, Federated States of",
-        capital: "",
+        country: ["Micronesia, Federated States of"],
+        capital: [""],
+        flag: ["FM"],
         iso2: "FM",
         iso3: "FSM",
         isClicked: false,
@@ -1752,8 +1898,9 @@ var countryData = {
         }
     },
     MDA: {
-        country: "Moldova, Republic of",
-        capital: "",
+        country: ["Moldova, Republic of"],
+        capital: [""],
+        flag: ["MD"],
         iso2: "MD",
         iso3: "MDA",
         isClicked: false,
@@ -1764,8 +1911,9 @@ var countryData = {
         }
     },
     MCO: {
-        country: "Monaco",
-        capital: "Monaco",
+        country: ["Monaco"],
+        capital: ["Monaco"],
+        flag: ["MC"],
         iso2: "MC",
         iso3: "MCO",
         isClicked: false,
@@ -1776,8 +1924,9 @@ var countryData = {
         }
     },
     MNG: {
-        country: "Mongolia",
-        capital: "Ulaanbaatar",
+        country: ["Mongolia"],
+        capital: ["Ulaanbaatar"],
+        flag: ["MN"],
         iso2: "MN",
         iso3: "MNG",
         isClicked: false,
@@ -1788,8 +1937,9 @@ var countryData = {
         }
     },
     MNE: {
-        country: "Montenegro",
-        capital: "Podgorica",
+        country: ["Montenegro"],
+        capital: ["Podgorica"],
+        flag: ["ME"],
         iso2: "ME",
         iso3: "MNE",
         isClicked: false,
@@ -1800,8 +1950,9 @@ var countryData = {
         }
     },
     MSR: {
-        country: "Montserrat",
-        capital: "Plymouth",
+        country: ["Montserrat"],
+        capital: ["Plymouth"],
+        flag: ["MS"],
         iso2: "MS",
         iso3: "MSR",
         isClicked: false,
@@ -1812,8 +1963,9 @@ var countryData = {
         }
     },
     MAR: {
-        country: "Morocco",
-        capital: "Rabat",
+        country: ["Morocco"],
+        capital: ["Rabat"],
+        flag: ["MA"],
         iso2: "MA",
         iso3: "MAR",
         isClicked: false,
@@ -1824,8 +1976,9 @@ var countryData = {
         }
     },
     MOZ: {
-        country: "Mozambique",
-        capital: "Maputo",
+        country: ["Mozambique"],
+        capital: ["Maputo"],
+        flag: ["MZ"],
         iso2: "MZ",
         iso3: "MOZ",
         isClicked: false,
@@ -1836,8 +1989,9 @@ var countryData = {
         }
     },
     MMR: {
-        country: "Myanmar",
-        capital: "Naypyidaw",
+        country: ["Myanmar"],
+        capital: ["Naypyidaw"],
+        flag: ["MM"],
         iso2: "MM",
         iso3: "MMR",
         isClicked: false,
@@ -1848,8 +2002,9 @@ var countryData = {
         }
     },
     NAM: {
-        country: "Namibia",
-        capital: "Windhoek",
+        country: ["Namibia"],
+        capital: ["Windhoek"],
+        flag: ["NA"],
         iso2: "NA",
         iso3: "NAM",
         isClicked: false,
@@ -1860,8 +2015,9 @@ var countryData = {
         }
     },
     NRU: {
-        country: "Nauru",
-        capital: "Yaren",
+        country: ["Nauru"],
+        capital: ["Yaren"],
+        flag: ["NR"],
         iso2: "NR",
         iso3: "NRU",
         isClicked: false,
@@ -1872,8 +2028,9 @@ var countryData = {
         }
     },
     NPL: {
-        country: "Nepal",
-        capital: "Kathmandu",
+        country: ["Nepal"],
+        capital: ["Kathmandu"],
+        flag: ["NP"],
         iso2: "NP",
         iso3: "NPL",
         isClicked: false,
@@ -1884,8 +2041,9 @@ var countryData = {
         }
     },
     NLD: {
-        country: "Netherlands",
-        capital: "Amsterdam",
+        country: ["Netherlands"],
+        capital: ["Amsterdam"],
+        flag: ["NL"],
         iso2: "NL",
         iso3: "NLD",
         isClicked: false,
@@ -1896,8 +2054,9 @@ var countryData = {
         }
     },
     NCL: {
-        country: "New Caledonia",
-        capital: "NoumÃ©a",
+        country: ["New Caledonia"],
+        capital: ["NoumÃ©a"],
+        flag: ["NC"],
         iso2: "NC",
         iso3: "NCL",
         isClicked: false,
@@ -1908,8 +2067,9 @@ var countryData = {
         }
     },
     NZL: {
-        country: "New Zealand",
-        capital: "Wellington",
+        country: ["New Zealand"],
+        capital: ["Wellington"],
+        flag: ["NZ"],
         iso2: "NZ",
         iso3: "NZL",
         isClicked: false,
@@ -1920,8 +2080,9 @@ var countryData = {
         }
     },
     NIC: {
-        country: "Nicaragua",
-        capital: "Managua",
+        country: ["Nicaragua"],
+        capital: ["Managua"],
+        flag: ["NI"],
         iso2: "NI",
         iso3: "NIC",
         isClicked: false,
@@ -1932,8 +2093,9 @@ var countryData = {
         }
     },
     NER: {
-        country: "Niger",
-        capital: "Niamey",
+        country: ["Niger"],
+        capital: ["Niamey"],
+        flag: ["NE"],
         iso2: "NE",
         iso3: "NER",
         isClicked: false,
@@ -1944,8 +2106,9 @@ var countryData = {
         }
     },
     NGA: {
-        country: "Nigeria",
-        capital: "Abuja",
+        country: ["Nigeria"],
+        capital: ["Abuja"],
+        flag: ["NG"],
         iso2: "NG",
         iso3: "NGA",
         isClicked: false,
@@ -1956,8 +2119,9 @@ var countryData = {
         }
     },
     NIU: {
-        country: "Niue",
-        capital: "Alofi",
+        country: ["Niue"],
+        capital: ["Alofi"],
+        flag: ["NU"],
         iso2: "NU",
         iso3: "NIU",
         isClicked: false,
@@ -1968,8 +2132,9 @@ var countryData = {
         }
     },
     NFK: {
-        country: "Norfolk Island",
-        capital: "Kingston",
+        country: ["Norfolk Island"],
+        capital: ["Kingston"],
+        flag: ["NF"],
         iso2: "NF",
         iso3: "NFK",
         isClicked: false,
@@ -1980,8 +2145,9 @@ var countryData = {
         }
     },
     MNP: {
-        country: "Northern Mariana Islands",
-        capital: "Saipan",
+        country: ["Northern Mariana Islands"],
+        capital: ["Saipan"],
+        flag: ["MP"],
         iso2: "MP",
         iso3: "MNP",
         isClicked: false,
@@ -1992,8 +2158,9 @@ var countryData = {
         }
     },
     NOR: {
-        country: "Norway",
-        capital: "Oslo",
+        country: ["Norway"],
+        capital: ["Oslo"],
+        flag: ["NO"],
         iso2: "NO",
         iso3: "NOR",
         isClicked: false,
@@ -2004,8 +2171,9 @@ var countryData = {
         }
     },
     OMN: {
-        country: "Oman",
-        capital: "Muscat",
+        country: ["Oman"],
+        capital: ["Muscat"],
+        flag: ["OM"],
         iso2: "OM",
         iso3: "OMN",
         isClicked: false,
@@ -2016,8 +2184,9 @@ var countryData = {
         }
     },
     PAK: {
-        country: "Pakistan",
-        capital: "Islamabad",
+        country: ["Pakistan"],
+        capital: ["Islamabad"],
+        flag: ["PK"],
         iso2: "PK",
         iso3: "PAK",
         isClicked: false,
@@ -2028,8 +2197,9 @@ var countryData = {
         }
     },
     PLW: {
-        country: "Palau",
-        capital: "Ngerulmud",
+        country: ["Palau"],
+        capital: ["Ngerulmud"],
+        flag: ["PW"],
         iso2: "PW",
         iso3: "PLW",
         isClicked: false,
@@ -2040,8 +2210,9 @@ var countryData = {
         }
     },
     PSE: {
-        country: "Palestine, State of",
-        capital: "",
+        country: ["Palestine, State of"],
+        capital: [""],
+        flag: ["PS"],
         iso2: "PS",
         iso3: "PSE",
         isClicked: false,
@@ -2052,8 +2223,9 @@ var countryData = {
         }
     },
     PAN: {
-        country: "Panama",
-        capital: "Panama City",
+        country: ["Panama"],
+        capital: ["Panama City"],
+        flag: ["PA"],
         iso2: "PA",
         iso3: "PAN",
         isClicked: false,
@@ -2064,8 +2236,9 @@ var countryData = {
         }
     },
     PNG: {
-        country: "Papua New Guinea",
-        capital: "Port Moresby",
+        country: ["Papua New Guinea"],
+        capital: ["Port Moresby"],
+        flag: ["PG"],
         iso2: "PG",
         iso3: "PNG",
         isClicked: false,
@@ -2076,8 +2249,9 @@ var countryData = {
         }
     },
     PRY: {
-        country: "Paraguay",
-        capital: "AsunciÃ³n",
+        country: ["Paraguay"],
+        capital: ["AsunciÃ³n"],
+        flag: ["PY"],
         iso2: "PY",
         iso3: "PRY",
         isClicked: false,
@@ -2088,8 +2262,9 @@ var countryData = {
         }
     },
     PER: {
-        country: "Peru",
-        capital: "Lima",
+        country: ["Peru"],
+        capital: ["Lima"],
+        flag: ["PE"],
         iso2: "PE",
         iso3: "PER",
         isClicked: false,
@@ -2100,8 +2275,9 @@ var countryData = {
         }
     },
     PHL: {
-        country: "Philippines",
-        capital: "Manila",
+        country: ["Philippines"],
+        capital: ["Manila"],
+        flag: ["PH"],
         iso2: "PH",
         iso3: "PHL",
         isClicked: false,
@@ -2112,8 +2288,9 @@ var countryData = {
         }
     },
     PCN: {
-        country: "Pitcairn",
-        capital: "Adamstown",
+        country: ["Pitcairn"],
+        capital: ["Adamstown"],
+        flag: ["PN"],
         iso2: "PN",
         iso3: "PCN",
         isClicked: false,
@@ -2124,8 +2301,9 @@ var countryData = {
         }
     },
     POL: {
-        country: "Poland",
-        capital: "Warsaw",
+        country: ["Poland"],
+        capital: ["Warsaw"],
+        flag: ["PL"],
         iso2: "PL",
         iso3: "POL",
         isClicked: false,
@@ -2136,8 +2314,9 @@ var countryData = {
         }
     },
     PRT: {
-        country: "Portugal",
-        capital: "Lisbon",
+        country: ["Portugal"],
+        capital: ["Lisbon"],
+        flag: ["PT"],
         iso2: "PT",
         iso3: "PRT",
         isClicked: false,
@@ -2148,8 +2327,9 @@ var countryData = {
         }
     },
     PRI: {
-        country: "Puerto Rico",
-        capital: "San Juan",
+        country: ["Puerto Rico"],
+        capital: ["San Juan"],
+        flag: ["PR"],
         iso2: "PR",
         iso3: "PRI",
         isClicked: false,
@@ -2160,8 +2340,9 @@ var countryData = {
         }
     },
     QAT: {
-        country: "Qatar",
-        capital: "Doha",
+        country: ["Qatar"],
+        capital: ["Doha"],
+        flag: ["QA"],
         iso2: "QA",
         iso3: "QAT",
         isClicked: false,
@@ -2172,8 +2353,9 @@ var countryData = {
         }
     },
     REU: {
-        country: "Reunion",
-        capital: "",
+        country: ["Reunion"],
+        capital: [""],
+        flag: ["RE"],
         iso2: "RE",
         iso3: "REU",
         isClicked: false,
@@ -2184,8 +2366,9 @@ var countryData = {
         }
     },
     ROU: {
-        country: "Romania",
-        capital: "Bucharest",
+        country: ["Romania"],
+        capital: ["Bucharest"],
+        flag: ["RO"],
         iso2: "RO",
         iso3: "ROU",
         isClicked: false,
@@ -2196,9 +2379,9 @@ var countryData = {
         }
     },
     RUS: {
-        country: "Russian Federation",
-        acceptedNames: ["Russia"],
-        capital: "Moscow",
+        country: ["Russian Federation"],
+        capital: ["Moscow"],
+        flag: ["RU"],
         iso2: "RU",
         iso3: "RUS",
         isClicked: false,
@@ -2209,8 +2392,9 @@ var countryData = {
         }
     },
     RWA: {
-        country: "Rwanda",
-        capital: "Kigali",
+        country: ["Rwanda"],
+        capital: ["Kigali"],
+        flag: ["RW"],
         iso2: "RW",
         iso3: "RWA",
         isClicked: false,
@@ -2221,8 +2405,9 @@ var countryData = {
         }
     },
     BLM: {
-        country: "Saint Barthelemy",
-        capital: "",
+        country: ["Saint Barthelemy"],
+        capital: [""],
+        flag: ["BL"],
         iso2: "BL",
         iso3: "BLM",
         isClicked: false,
@@ -2233,8 +2418,9 @@ var countryData = {
         }
     },
     SHN: {
-        country: "Saint Helena",
-        capital: "Jamestown",
+        country: ["Saint Helena"],
+        capital: ["Jamestown"],
+        flag: ["SH"],
         iso2: "SH",
         iso3: "SHN",
         isClicked: false,
@@ -2245,8 +2431,9 @@ var countryData = {
         }
     },
     KNA: {
-        country: "Saint Kitts and Nevis",
-        capital: "Basseterre",
+        country: ["Saint Kitts and Nevis"],
+        capital: ["Basseterre"],
+        flag: ["KN"],
         iso2: "KN",
         iso3: "KNA",
         isClicked: false,
@@ -2257,8 +2444,9 @@ var countryData = {
         }
     },
     LCA: {
-        country: "Saint Lucia",
-        capital: "Castries",
+        country: ["Saint Lucia"],
+        capital: ["Castries"],
+        flag: ["LC"],
         iso2: "LC",
         iso3: "LCA",
         isClicked: false,
@@ -2269,8 +2457,9 @@ var countryData = {
         }
     },
     MAF: {
-        country: "Saint Martin (French part)",
-        capital: "",
+        country: ["Saint Martin (French part)"],
+        capital: [""],
+        flag: ["MF"],
         iso2: "MF",
         iso3: "MAF",
         isClicked: false,
@@ -2281,8 +2470,9 @@ var countryData = {
         }
     },
     SPM: {
-        country: "Saint Pierre and Miquelon",
-        capital: "St. Pierre",
+        country: ["Saint Pierre and Miquelon"],
+        capital: ["St. Pierre"],
+        flag: ["PM"],
         iso2: "PM",
         iso3: "SPM",
         isClicked: false,
@@ -2293,8 +2483,9 @@ var countryData = {
         }
     },
     VCT: {
-        country: "Saint Vincent and the Grenadines",
-        capital: "Kingstown",
+        country: ["Saint Vincent and the Grenadines"],
+        capital: ["Kingstown"],
+        flag: ["VC"],
         iso2: "VC",
         iso3: "VCT",
         isClicked: false,
@@ -2305,8 +2496,9 @@ var countryData = {
         }
     },
     WSM: {
-        country: "Samoa",
-        capital: "Apia",
+        country: ["Samoa"],
+        capital: ["Apia"],
+        flag: ["WS"],
         iso2: "WS",
         iso3: "WSM",
         isClicked: false,
@@ -2317,8 +2509,9 @@ var countryData = {
         }
     },
     SMR: {
-        country: "San Marino",
-        capital: "San Marino",
+        country: ["San Marino"],
+        capital: ["San Marino"],
+        flag: ["SM"],
         iso2: "SM",
         iso3: "SMR",
         isClicked: false,
@@ -2329,8 +2522,9 @@ var countryData = {
         }
     },
     STP: {
-        country: "Sao Tome and Principe",
-        capital: "",
+        country: ["Sao Tome and Principe"],
+        capital: [""],
+        flag: ["ST"],
         iso2: "ST",
         iso3: "STP",
         isClicked: false,
@@ -2341,8 +2535,9 @@ var countryData = {
         }
     },
     SAU: {
-        country: "Saudi Arabia",
-        capital: "Riyadh",
+        country: ["Saudi Arabia"],
+        capital: ["Riyadh"],
+        flag: ["SA"],
         iso2: "SA",
         iso3: "SAU",
         isClicked: false,
@@ -2353,8 +2548,9 @@ var countryData = {
         }
     },
     SEN: {
-        country: "Senegal",
-        capital: "Dakar",
+        country: ["Senegal"],
+        capital: ["Dakar"],
+        flag: ["SN"],
         iso2: "SN",
         iso3: "SEN",
         isClicked: false,
@@ -2365,8 +2561,9 @@ var countryData = {
         }
     },
     SRB: {
-        country: "Serbia",
-        capital: "Belgrade",
+        country: ["Serbia"],
+        capital: ["Belgrade"],
+        flag: ["RS"],
         iso2: "RS",
         iso3: "SRB",
         isClicked: false,
@@ -2377,8 +2574,9 @@ var countryData = {
         }
     },
     SYC: {
-        country: "Seychelles",
-        capital: "Victoria",
+        country: ["Seychelles"],
+        capital: ["Victoria"],
+        flag: ["SC"],
         iso2: "SC",
         iso3: "SYC",
         isClicked: false,
@@ -2389,8 +2587,9 @@ var countryData = {
         }
     },
     SLE: {
-        country: "Sierra Leone",
-        capital: "Freetown",
+        country: ["Sierra Leone"],
+        capital: ["Freetown"],
+        flag: ["SL"],
         iso2: "SL",
         iso3: "SLE",
         isClicked: false,
@@ -2401,8 +2600,9 @@ var countryData = {
         }
     },
     SGP: {
-        country: "Singapore",
-        capital: "Singapore",
+        country: ["Singapore"],
+        capital: ["Singapore"],
+        flag: ["SG"],
         iso2: "SG",
         iso3: "SGP",
         isClicked: false,
@@ -2413,8 +2613,9 @@ var countryData = {
         }
     },
     SXM: {
-        country: "Sint Maarten (Dutch part)",
-        capital: "",
+        country: ["Sint Maarten (Dutch part)"],
+        capital: [""],
+        flag: ["SX"],
         iso2: "SX",
         iso3: "SXM",
         isClicked: false,
@@ -2425,8 +2626,9 @@ var countryData = {
         }
     },
     SVK: {
-        country: "Slovakia",
-        capital: "Bratislava",
+        country: ["Slovakia"],
+        capital: ["Bratislava"],
+        flag: ["SK"],
         iso2: "SK",
         iso3: "SVK",
         isClicked: false,
@@ -2437,8 +2639,9 @@ var countryData = {
         }
     },
     SVN: {
-        country: "Slovenia",
-        capital: "Ljubljana",
+        country: ["Slovenia"],
+        capital: ["Ljubljana"],
+        flag: ["SI"],
         iso2: "SI",
         iso3: "SVN",
         isClicked: false,
@@ -2449,8 +2652,9 @@ var countryData = {
         }
     },
     SLB: {
-        country: "Solomon Islands",
-        capital: "Honiara",
+        country: ["Solomon Islands"],
+        capital: ["Honiara"],
+        flag: ["SB"],
         iso2: "SB",
         iso3: "SLB",
         isClicked: false,
@@ -2461,8 +2665,9 @@ var countryData = {
         }
     },
     SOM: {
-        country: "Somalia",
-        capital: "Mogadishu",
+        country: ["Somalia"],
+        capital: ["Mogadishu"],
+        flag: ["SO"],
         iso2: "SO",
         iso3: "SOM",
         isClicked: false,
@@ -2473,8 +2678,9 @@ var countryData = {
         }
     },
     ZAF: {
-        country: "South Africa",
-        capital: "Pretoria",
+        country: ["South Africa"],
+        capital: ["Pretoria"],
+        flag: ["ZA"],
         iso2: "ZA",
         iso3: "ZAF",
         isClicked: false,
@@ -2485,8 +2691,9 @@ var countryData = {
         }
     },
     SGS: {
-        country: "South Georgia and the South Sandwich Islands",
-        capital: "King Edward Point",
+        country: ["South Georgia and the South Sandwich Islands"],
+        capital: ["King Edward Point"],
+        flag: ["GS"],
         iso2: "GS",
         iso3: "SGS",
         isClicked: false,
@@ -2497,8 +2704,9 @@ var countryData = {
         }
     },
     SSD: {
-        country: "South Sudan",
-        capital: "Juba",
+        country: ["South Sudan"],
+        capital: ["Juba"],
+        flag: ["SS"],
         iso2: "SS",
         iso3: "SSD",
         isClicked: false,
@@ -2509,8 +2717,9 @@ var countryData = {
         }
     },
     ESP: {
-        country: "Spain",
-        capital: "Madrid",
+        country: ["Spain"],
+        capital: ["Madrid"],
+        flag: ["ES"],
         iso2: "ES",
         iso3: "ESP",
         isClicked: false,
@@ -2521,8 +2730,9 @@ var countryData = {
         }
     },
     LKA: {
-        country: "Sri Lanka",
-        capital: "Sri Jayawardenepura Kotte",
+        country: ["Sri Lanka"],
+        capital: ["Sri Jayawardenepura Kotte"],
+        flag: ["LK"],
         iso2: "LK",
         iso3: "LKA",
         isClicked: false,
@@ -2533,8 +2743,9 @@ var countryData = {
         }
     },
     SDN: {
-        country: "Sudan",
-        capital: "Khartoum",
+        country: ["Sudan"],
+        capital: ["Khartoum"],
+        flag: ["SD"],
         iso2: "SD",
         iso3: "SDN",
         isClicked: false,
@@ -2545,8 +2756,9 @@ var countryData = {
         }
     },
     SUR: {
-        country: "Suriname",
-        capital: "Paramaribo",
+        country: ["Suriname"],
+        capital: ["Paramaribo"],
+        flag: ["SR"],
         iso2: "SR",
         iso3: "SUR",
         isClicked: false,
@@ -2557,8 +2769,9 @@ var countryData = {
         }
     },
     SJM: {
-        country: "Svalbard and Jan Mayen",
-        capital: "",
+        country: ["Svalbard and Jan Mayen"],
+        capital: [""],
+        flag: ["SJ"],
         iso2: "SJ",
         iso3: "SJM",
         isClicked: false,
@@ -2569,8 +2782,9 @@ var countryData = {
         }
     },
     SWZ: {
-        country: "Swaziland",
-        capital: "Mbabane",
+        country: ["Swaziland"],
+        capital: ["Mbabane"],
+        flag: ["SZ"],
         iso2: "SZ",
         iso3: "SWZ",
         isClicked: false,
@@ -2581,8 +2795,9 @@ var countryData = {
         }
     },
     SWE: {
-        country: "Sweden",
-        capital: "Stockholm",
+        country: ["Sweden"],
+        capital: ["Stockholm"],
+        flag: ["SE"],
         iso2: "SE",
         iso3: "SWE",
         isClicked: false,
@@ -2593,8 +2808,9 @@ var countryData = {
         }
     },
     CHE: {
-        country: "Switzerland",
-        capital: "Bern",
+        country: ["Switzerland"],
+        capital: ["Bern"],
+        flag: ["CH"],
         iso2: "CH",
         iso3: "CHE",
         isClicked: false,
@@ -2605,8 +2821,9 @@ var countryData = {
         }
     },
     SYR: {
-        country: "Syrian Arab Republic",
-        capital: "",
+        country: ["Syrian Arab Republic"],
+        capital: [""],
+        flag: ["SY"],
         iso2: "SY",
         iso3: "SYR",
         isClicked: false,
@@ -2617,8 +2834,9 @@ var countryData = {
         }
     },
     TWN: {
-        country: "Taiwan, Province of China",
-        capital: "",
+        country: ["Taiwan, Province of China"],
+        capital: [""],
+        flag: ["TW"],
         iso2: "TW",
         iso3: "TWN",
         isClicked: false,
@@ -2629,8 +2847,9 @@ var countryData = {
         }
     },
     TJK: {
-        country: "Tajikistan",
-        capital: "Dushanbe",
+        country: ["Tajikistan"],
+        capital: ["Dushanbe"],
+        flag: ["TJ"],
         iso2: "TJ",
         iso3: "TJK",
         isClicked: false,
@@ -2641,8 +2860,9 @@ var countryData = {
         }
     },
     THA: {
-        country: "Thailand",
-        capital: "Bangkok",
+        country: ["Thailand"],
+        capital: ["Bangkok"],
+        flag: ["TH"],
         iso2: "TH",
         iso3: "THA",
         isClicked: false,
@@ -2653,8 +2873,9 @@ var countryData = {
         }
     },
     TLS: {
-        country: "Timor-Leste",
-        capital: "",
+        country: ["Timor-Leste"],
+        capital: [""],
+        flag: ["TL"],
         iso2: "TL",
         iso3: "TLS",
         isClicked: false,
@@ -2665,8 +2886,9 @@ var countryData = {
         }
     },
     TGO: {
-        country: "Togo",
-        capital: "LomÃ©",
+        country: ["Togo"],
+        capital: ["LomÃ©"],
+        flag: ["TG"],
         iso2: "TG",
         iso3: "TGO",
         isClicked: false,
@@ -2677,8 +2899,9 @@ var countryData = {
         }
     },
     TKL: {
-        country: "Tokelau",
-        capital: "",
+        country: ["Tokelau"],
+        capital: [""],
+        flag: ["TK"],
         iso2: "TK",
         iso3: "TKL",
         isClicked: false,
@@ -2689,8 +2912,9 @@ var countryData = {
         }
     },
     TON: {
-        country: "Tonga",
-        capital: "NukuÊ»alofa",
+        country: ["Tonga"],
+        capital: ["NukuÊ»alofa"],
+        flag: ["TO"],
         iso2: "TO",
         iso3: "TON",
         isClicked: false,
@@ -2701,8 +2925,9 @@ var countryData = {
         }
     },
     TTO: {
-        country: "Trinidad and Tobago",
-        capital: "Port of Spain",
+        country: ["Trinidad and Tobago"],
+        capital: ["Port of Spain"],
+        flag: ["TT"],
         iso2: "TT",
         iso3: "TTO",
         isClicked: false,
@@ -2713,8 +2938,9 @@ var countryData = {
         }
     },
     TUN: {
-        country: "Tunisia",
-        capital: "Tunis",
+        country: ["Tunisia"],
+        capital: ["Tunis"],
+        flag: ["TN"],
         iso2: "TN",
         iso3: "TUN",
         isClicked: false,
@@ -2725,8 +2951,9 @@ var countryData = {
         }
     },
     TUR: {
-        country: "Turkey",
-        capital: "Ankara",
+        country: ["Turkey"],
+        capital: ["Ankara"],
+        flag: ["TR"],
         iso2: "TR",
         iso3: "TUR",
         isClicked: false,
@@ -2737,8 +2964,9 @@ var countryData = {
         }
     },
     TKM: {
-        country: "Turkmenistan",
-        capital: "Ashgabat",
+        country: ["Turkmenistan"],
+        capital: ["Ashgabat"],
+        flag: ["TM"],
         iso2: "TM",
         iso3: "TKM",
         isClicked: false,
@@ -2749,8 +2977,9 @@ var countryData = {
         }
     },
     TCA: {
-        country: "Turks and Caicos Islands",
-        capital: "Cockburn Town",
+        country: ["Turks and Caicos Islands"],
+        capital: ["Cockburn Town"],
+        flag: ["TC"],
         iso2: "TC",
         iso3: "TCA",
         isClicked: false,
@@ -2761,8 +2990,9 @@ var countryData = {
         }
     },
     TUV: {
-        country: "Tuvalu",
-        capital: "Funafuti",
+        country: ["Tuvalu"],
+        capital: ["Funafuti"],
+        flag: ["TV"],
         iso2: "TV",
         iso3: "TUV",
         isClicked: false,
@@ -2773,8 +3003,9 @@ var countryData = {
         }
     },
     VIR: {
-        country: "US Virgin Islands",
-        capital: "",
+        country: ["US Virgin Islands"],
+        capital: [""],
+        flag: ["VI"],
         iso2: "VI",
         iso3: "VIR",
         isClicked: false,
@@ -2785,8 +3016,9 @@ var countryData = {
         }
     },
     UGA: {
-        country: "Uganda",
-        capital: "Kampala",
+        country: ["Uganda"],
+        capital: ["Kampala"],
+        flag: ["UG"],
         iso2: "UG",
         iso3: "UGA",
         isClicked: false,
@@ -2797,8 +3029,9 @@ var countryData = {
         }
     },
     UKR: {
-        country: "Ukraine",
-        capital: "Kiev",
+        country: ["Ukraine"],
+        capital: ["Kiev"],
+        flag: ["UA"],
         iso2: "UA",
         iso3: "UKR",
         isClicked: false,
@@ -2809,8 +3042,9 @@ var countryData = {
         }
     },
     ARE: {
-        country: "United Arab Emirates",
-        capital: "Abu Dhabi",
+        country: ["United Arab Emirates"],
+        capital: ["Abu Dhabi"],
+        flag: ["AE"],
         iso2: "AE",
         iso3: "ARE",
         isClicked: false,
@@ -2821,9 +3055,9 @@ var countryData = {
         }
     },
     GBR: {
-        country: "United Kingdom",
-        acceptedNames: ["UK", "United Kingdom"],
-        capital: "London",
+        country: ["United Kingdom"],
+        capital: ["London"],
+        flag: ["GB"],
         iso2: "GB",
         iso3: "GBR",
         isClicked: false,
@@ -2834,8 +3068,9 @@ var countryData = {
         }
     },
     TZA: {
-        country: "United Republic of Tanzania",
-        capital: "",
+        country: ["United Republic of Tanzania"],
+        capital: [""],
+        flag: ["TZ"],
         iso2: "TZ",
         iso3: "TZA",
         isClicked: false,
@@ -2846,10 +3081,9 @@ var countryData = {
         }
     },
     USA: {
-        country: "United States",
-        acceptedNames: ["USA", "United States"],
-        capital: "Washington, D.C.",
-        acceptedCapitals: ["Washington", "Washington, D.C."],
+        country: ["United States"],
+        capital: ["Washington, D.C."],
+        flag: ["US"],
         iso2: "US",
         iso3: "USA",
         isClicked: false,
@@ -2860,8 +3094,9 @@ var countryData = {
         }
     },
     UMI: {
-        country: "United States Minor Outlying Islands",
-        capital: "",
+        country: ["United States Minor Outlying Islands"],
+        capital: [""],
+        flag: ["UM"],
         iso2: "UM",
         iso3: "UMI",
         isClicked: false,
@@ -2872,8 +3107,9 @@ var countryData = {
         }
     },
     URY: {
-        country: "Uruguay",
-        capital: "Montevideo",
+        country: ["Uruguay"],
+        capital: ["Montevideo"],
+        flag: ["UY"],
         iso2: "UY",
         iso3: "URY",
         isClicked: false,
@@ -2884,8 +3120,9 @@ var countryData = {
         }
     },
     UZB: {
-        country: "Uzbekistan",
-        capital: "Tashkent",
+        country: ["Uzbekistan"],
+        capital: ["Tashkent"],
+        flag: ["UZ"],
         iso2: "UZ",
         iso3: "UZB",
         isClicked: false,
@@ -2896,8 +3133,9 @@ var countryData = {
         }
     },
     VUT: {
-        country: "Vanuatu",
-        capital: "Port Vila",
+        country: ["Vanuatu"],
+        capital: ["Port Vila"],
+        flag: ["VU"],
         iso2: "VU",
         iso3: "VUT",
         isClicked: false,
@@ -2908,8 +3146,9 @@ var countryData = {
         }
     },
     VEN: {
-        country: "Venezuela",
-        capital: "Caracas",
+        country: ["Venezuela"],
+        capital: ["Caracas"],
+        flag: ["VE"],
         iso2: "VE",
         iso3: "VEN",
         isClicked: false,
@@ -2920,8 +3159,9 @@ var countryData = {
         }
     },
     VNM: {
-        country: "Viet Nam",
-        capital: "",
+        country: ["Viet Nam"],
+        capital: [""],
+        flag: ["VN"],
         iso2: "VN",
         iso3: "VNM",
         isClicked: false,
@@ -2932,8 +3172,9 @@ var countryData = {
         }
     },
     WLF: {
-        country: "Wallis and Futuna",
-        capital: "Mata-Utu",
+        country: ["Wallis and Futuna"],
+        capital: ["Mata-Utu"],
+        flag: ["WF"],
         iso2: "WF",
         iso3: "WLF",
         isClicked: false,
@@ -2944,8 +3185,9 @@ var countryData = {
         }
     },
     ESH: {
-        country: "Western Sahara",
-        capital: "",
+        country: ["Western Sahara"],
+        capital: [""],
+        flag: ["EH"],
         iso2: "EH",
         iso3: "ESH",
         isClicked: false,
@@ -2956,8 +3198,9 @@ var countryData = {
         }
     },
     YEM: {
-        country: "Yemen",
-        capital: "Sanaa",
+        country: ["Yemen"],
+        capital: ["Sanaa"],
+        flag: ["YE"],
         iso2: "YE",
         iso3: "YEM",
         isClicked: false,
@@ -2968,8 +3211,9 @@ var countryData = {
         }
     },
     ZMB: {
-        country: "Zambia",
-        capital: "Lusaka",
+        country: ["Zambia"],
+        capital: ["Lusaka"],
+        flag: ["ZM"],
         iso2: "ZM",
         iso3: "ZMB",
         isClicked: false,
@@ -2980,8 +3224,9 @@ var countryData = {
         }
     },
     ZWE: {
-        country: "Zimbabwe",
-        capital: "Harare",
+        country: ["Zimbabwe"],
+        capital: ["Harare"],
+        flag: ["ZW"],
         iso2: "ZW",
         iso3: "ZWE",
         isClicked: false,
@@ -2992,8 +3237,9 @@ var countryData = {
         }
     },
     RKS: {
-    	country: "Kosovo",
-    	capital: "Pristina",
+    	country: ["Kosovo"],
+    	capital: ["Pristina"],
+        flag: ["XK"],
     	iso2: "XK",
     	iso3: "RKS",
         isClicked: false,
@@ -3004,8 +3250,9 @@ var countryData = {
         }
     },
     XSM: {
-    	country: "Somaliland",
-    	capital: "Hargeisa",
+    	country: ["Somaliland"],
+    	capital: ["Hargeisa"],
+        flag: ["XS"],
     	iso2: "XS",
     	iso3: "XSM",
         isClicked: false,
@@ -3016,8 +3263,9 @@ var countryData = {
         }
     },
     XNC: {
-    	country: "Northern Cyprus",
-    	capital: "North Nicosia",
+    	country: ["Northern Cyprus"],
+    	capital: ["North Nicosia"],
+        flag: ["XC"],
     	iso2: "XC",
     	iso3: "XNC",
         isClicked: false,
