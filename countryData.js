@@ -6,6 +6,8 @@ var countryData = {
         iso2: "AF",
         iso3: "AFG",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -19,6 +21,8 @@ var countryData = {
         iso2: "AX",
         iso3: "ALA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -32,6 +36,8 @@ var countryData = {
         iso2: "AL",
         iso3: "ALB",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -45,6 +51,8 @@ var countryData = {
         iso2: "DZ",
         iso3: "DZA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -58,6 +66,8 @@ var countryData = {
         iso2: "AS",
         iso3: "ASM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -71,6 +81,8 @@ var countryData = {
         iso2: "AD",
         iso3: "AND",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -84,6 +96,8 @@ var countryData = {
         iso2: "AO",
         iso3: "AGO",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -97,6 +111,8 @@ var countryData = {
         iso2: "AI",
         iso3: "AIA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -110,6 +126,8 @@ var countryData = {
         iso2: "AQ",
         iso3: "ATA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -123,6 +141,8 @@ var countryData = {
         iso2: "AG",
         iso3: "ATG",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -136,6 +156,8 @@ var countryData = {
         iso2: "AR",
         iso3: "ARG",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -149,6 +171,8 @@ var countryData = {
         iso2: "AM",
         iso3: "ARM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -162,6 +186,8 @@ var countryData = {
         iso2: "AW",
         iso3: "ABW",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -175,6 +201,8 @@ var countryData = {
         iso2: "AU",
         iso3: "AUS",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -188,6 +216,8 @@ var countryData = {
         iso2: "AT",
         iso3: "AUT",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -201,6 +231,8 @@ var countryData = {
         iso2: "AZ",
         iso3: "AZE",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -214,6 +246,8 @@ var countryData = {
         iso2: "BS",
         iso3: "BHS",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -227,6 +261,8 @@ var countryData = {
         iso2: "BH",
         iso3: "BHR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -240,6 +276,8 @@ var countryData = {
         iso2: "BD",
         iso3: "BGD",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -253,6 +291,8 @@ var countryData = {
         iso2: "BB",
         iso3: "BRB",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -266,6 +306,8 @@ var countryData = {
         iso2: "BY",
         iso3: "BLR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -279,6 +321,8 @@ var countryData = {
         iso2: "BE",
         iso3: "BEL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -292,6 +336,8 @@ var countryData = {
         iso2: "BZ",
         iso3: "BLZ",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -305,6 +351,8 @@ var countryData = {
         iso2: "BJ",
         iso3: "BEN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -318,6 +366,8 @@ var countryData = {
         iso2: "BM",
         iso3: "BMU",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -331,6 +381,8 @@ var countryData = {
         iso2: "BT",
         iso3: "BTN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -344,6 +396,8 @@ var countryData = {
         iso2: "BO",
         iso3: "BOL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -352,11 +406,13 @@ var countryData = {
     },
     BES: {
         country: ["Bonaire"],
-        capital: [""],
+        capital: ["Kralendijk"],
         flag: ["BQ"],
         iso2: "BQ",
         iso3: "BES",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -370,6 +426,8 @@ var countryData = {
         iso2: "BA",
         iso3: "BIH",
         isClicked: false,
+        countryAbbreviations: [BiH, B&H, Bosnia-Herzegovina],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -383,6 +441,8 @@ var countryData = {
         iso2: "BW",
         iso3: "BWA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -396,6 +456,8 @@ var countryData = {
         iso2: "BV",
         iso3: "BVT",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -404,11 +466,13 @@ var countryData = {
     },
     BRA: {
         country: ["Brazil"],
-        capital: ["BrasÃ­lia"],
+        capital: ["Brasilia"],
         flag: ["BR"],
         iso2: "BR",
         iso3: "BRA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -422,6 +486,8 @@ var countryData = {
         iso2: "IO",
         iso3: "IOT",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -435,6 +501,8 @@ var countryData = {
         iso2: "VG",
         iso3: "VGB",
         isClicked: false,
+        countryAbbreviations: [Virgin Islands],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -443,11 +511,13 @@ var countryData = {
     },
     BRN: {
         country: ["Brunei Darussalam"],
-        capital: [""],
+        capital: ["Bandar Seri Begawan"],
         flag: ["BN"],
         iso2: "BN",
         iso3: "BRN",
         isClicked: false,
+        countryAbbreviations: ["Brunei"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -461,6 +531,8 @@ var countryData = {
         iso2: "BG",
         iso3: "BGR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -474,6 +546,8 @@ var countryData = {
         iso2: "BF",
         iso3: "BFA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -487,6 +561,8 @@ var countryData = {
         iso2: "BI",
         iso3: "BDI",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -500,6 +576,8 @@ var countryData = {
         iso2: "KH",
         iso3: "KHM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -513,6 +591,8 @@ var countryData = {
         iso2: "CM",
         iso3: "CMR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -526,6 +606,8 @@ var countryData = {
         iso2: "CA",
         iso3: "CAN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -534,11 +616,13 @@ var countryData = {
     },
     CPV: {
         country: ["Cape Verde"],
-        capital: [""],
+        capital: ["Praia"],
         flag: ["CV"],
         iso2: "CV",
         iso3: "CPV",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -552,6 +636,8 @@ var countryData = {
         iso2: "KY",
         iso3: "CYM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -565,6 +651,8 @@ var countryData = {
         iso2: "CF",
         iso3: "CAF",
         isClicked: false,
+        countryAbbreviations: ["CAR"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -573,11 +661,13 @@ var countryData = {
     },
     TCD: {
         country: ["Chad"],
-        capital: ["NDjamena"],
+        capital: ["N'Djamena"],
         flag: ["TD"],
         iso2: "TD",
         iso3: "TCD",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -591,6 +681,8 @@ var countryData = {
         iso2: "CL",
         iso3: "CHL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -599,11 +691,13 @@ var countryData = {
     },
     CHN: {
         country: ["China"],
-        capital: [""],
+        capital: ["Beijing"],
         flag: ["CN"],
         iso2: "CN",
         iso3: "CHN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -617,6 +711,8 @@ var countryData = {
         iso2: "CX",
         iso3: "CXR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -630,6 +726,8 @@ var countryData = {
         iso2: "CC",
         iso3: "CCK",
         isClicked: false,
+        countryAbbreviations: [Cocos Islands, Keeling Islands],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -638,11 +736,13 @@ var countryData = {
     },
     COL: {
         country: ["Colombia"],
-        capital: ["BogotÃ¡"],
+        capital: ["Bogota"],
         flag: ["CO"],
         iso2: "CO",
         iso3: "COL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -656,6 +756,8 @@ var countryData = {
         iso2: "KM",
         iso3: "COM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -664,11 +766,13 @@ var countryData = {
     },
     COG: {
         country: ["Congo"],
-        capital: [""],
+        capital: ["Brazzaville"],
         flag: ["CG"],
         iso2: "CG",
         iso3: "COG",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -682,6 +786,8 @@ var countryData = {
         iso2: "CK",
         iso3: "COK",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -690,11 +796,13 @@ var countryData = {
     },
     CRI: {
         country: ["Costa Rica"],
-        capital: ["San JosÃ©"],
+        capital: ["San Jose"],
         flag: ["CR"],
         iso2: "CR",
         iso3: "CRI",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -708,6 +816,8 @@ var countryData = {
         iso2: "HR",
         iso3: "HRV",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -721,6 +831,8 @@ var countryData = {
         iso2: "CU",
         iso3: "CUB",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -728,12 +840,14 @@ var countryData = {
         }
     },
     CUW: {
-        country: ["CuraÃƒÂ§ao"],
-        capital: [""],
+        country: ["Curacao"],
+        capital: ["Willemstad"],
         flag: ["CW"],
         iso2: "CW",
         iso3: "CUW",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -747,6 +861,8 @@ var countryData = {
         iso2: "CY",
         iso3: "CYP",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -760,6 +876,8 @@ var countryData = {
         iso2: "CZ",
         iso3: "CZE",
         isClicked: false,
+        countryAbbreviations: ["Czechia"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -767,12 +885,14 @@ var countryData = {
         }
     },
     CIV: {
-        country: ["Cote dIvoire"],
-        capital: [""],
+        country: ["Cote d'Ivoire"],
+        capital: ["Yamoussoukro"],
         flag: ["CI"],
         iso2: "CI",
         iso3: "CIV",
         isClicked: false,
+        countryAbbreviations: ["Ivory Coast"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -786,6 +906,8 @@ var countryData = {
         iso2: "CD",
         iso3: "COD",
         isClicked: false,
+        countryAbbreviations: ["DRC"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -799,6 +921,8 @@ var countryData = {
         iso2: "DK",
         iso3: "DNK",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -812,6 +936,8 @@ var countryData = {
         iso2: "DJ",
         iso3: "DJI",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -825,6 +951,8 @@ var countryData = {
         iso2: "DM",
         iso3: "DMA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -838,6 +966,8 @@ var countryData = {
         iso2: "DO",
         iso3: "DOM",
         isClicked: false,
+        countryAbbreviations: ["DR"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -851,6 +981,8 @@ var countryData = {
         iso2: "EC",
         iso3: "ECU",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -864,6 +996,8 @@ var countryData = {
         iso2: "EG",
         iso3: "EGY",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -877,6 +1011,8 @@ var countryData = {
         iso2: "SV",
         iso3: "SLV",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -890,6 +1026,8 @@ var countryData = {
         iso2: "GQ",
         iso3: "GNQ",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -903,6 +1041,8 @@ var countryData = {
         iso2: "ER",
         iso3: "ERI",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -916,6 +1056,8 @@ var countryData = {
         iso2: "EE",
         iso3: "EST",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -929,6 +1071,8 @@ var countryData = {
         iso2: "ET",
         iso3: "ETH",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -937,11 +1081,13 @@ var countryData = {
     },
     FLK: {
         country: ["Falkland Islands (Malvinas)"],
-        capital: [""],
+        capital: ["Stanley"],
         flag: ["FK"],
         iso2: "FK",
         iso3: "FLK",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -950,11 +1096,13 @@ var countryData = {
     },
     FRO: {
         country: ["Faroe Islands"],
-        capital: ["TÃ³rshavn"],
+        capital: ["Torshavn"],
         flag: ["FO"],
         iso2: "FO",
         iso3: "FRO",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -968,6 +1116,8 @@ var countryData = {
         iso2: "FJ",
         iso3: "FJI",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -981,6 +1131,8 @@ var countryData = {
         iso2: "FI",
         iso3: "FIN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -994,6 +1146,8 @@ var countryData = {
         iso2: "FR",
         iso3: "FRA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1007,6 +1161,8 @@ var countryData = {
         iso2: "GF",
         iso3: "GUF",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1020,6 +1176,8 @@ var countryData = {
         iso2: "PF",
         iso3: "PYF",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1028,11 +1186,13 @@ var countryData = {
     },
     ATF: {
         country: ["French Southern Territories"],
-        capital: [""],
+        capital: ["Saint-Pierre"],
         flag: ["TF"],
         iso2: "TF",
         iso3: "ATF",
         isClicked: false,
+        countryAbbreviations: ["TAAF"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1046,6 +1206,8 @@ var countryData = {
         iso2: "GA",
         iso3: "GAB",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1059,6 +1221,8 @@ var countryData = {
         iso2: "GM",
         iso3: "GMB",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1072,6 +1236,8 @@ var countryData = {
         iso2: "GE",
         iso3: "GEO",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1085,6 +1251,8 @@ var countryData = {
         iso2: "DE",
         iso3: "DEU",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1098,6 +1266,8 @@ var countryData = {
         iso2: "GH",
         iso3: "GHA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1111,6 +1281,8 @@ var countryData = {
         iso2: "GI",
         iso3: "GIB",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1124,6 +1296,8 @@ var countryData = {
         iso2: "GR",
         iso3: "GRC",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1137,6 +1311,8 @@ var countryData = {
         iso2: "GL",
         iso3: "GRL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1150,6 +1326,8 @@ var countryData = {
         iso2: "GD",
         iso3: "GRD",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1163,6 +1341,8 @@ var countryData = {
         iso2: "GP",
         iso3: "GLP",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1171,11 +1351,13 @@ var countryData = {
     },
     GUM: {
         country: ["Guam"],
-        capital: ["HagÃ¥tÃ±a"],
+        capital: ["Hagatna"],
         flag: ["GU"],
         iso2: "GU",
         iso3: "GUM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1189,6 +1371,8 @@ var countryData = {
         iso2: "GT",
         iso3: "GTM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1202,6 +1386,8 @@ var countryData = {
         iso2: "GG",
         iso3: "GGY",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1215,6 +1401,8 @@ var countryData = {
         iso2: "GN",
         iso3: "GIN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1228,6 +1416,8 @@ var countryData = {
         iso2: "GW",
         iso3: "GNB",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1241,6 +1431,8 @@ var countryData = {
         iso2: "GY",
         iso3: "GUY",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1254,6 +1446,8 @@ var countryData = {
         iso2: "HT",
         iso3: "HTI",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1261,12 +1455,14 @@ var countryData = {
         }
     },
     HMD: {
-        country: ["Heard Island and McDonald Mcdonald Islands"],
+        country: ["Heard Island and McDonald Islands"],
         capital: [""],
         flag: ["HM"],
         iso2: "HM",
         iso3: "HMD",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1275,11 +1471,13 @@ var countryData = {
     },
     VAT: {
         country: ["Holy See (Vatican City State)"],
-        capital: [""],
+        capital: ["Vatican City"],
         flag: ["VA"],
         iso2: "VA",
         iso3: "VAT",
         isClicked: false,
+        countryAbbreviations: ["Holy See","Vatican"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1293,6 +1491,8 @@ var countryData = {
         iso2: "HN",
         iso3: "HND",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1301,11 +1501,13 @@ var countryData = {
     },
     HKG: {
         country: ["Hong Kong"],
-        capital: ["Hong Kong"],
+        capital: [""],
         flag: ["HK"],
         iso2: "HK",
         iso3: "HKG",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1319,6 +1521,8 @@ var countryData = {
         iso2: "HU",
         iso3: "HUN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1332,6 +1536,8 @@ var countryData = {
         iso2: "IS",
         iso3: "ISL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1345,6 +1551,8 @@ var countryData = {
         iso2: "IN",
         iso3: "IND",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1358,6 +1566,8 @@ var countryData = {
         iso2: "ID",
         iso3: "IDN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1366,11 +1576,13 @@ var countryData = {
     },
     IRN: {
         country: ["Iran, Islamic Republic of"],
-        capital: [""],
+        capital: ["Tehran"],
         flag: ["IR"],
         iso2: "IR",
         iso3: "IRN",
         isClicked: false,
+        countryAbbreviations: ["Iran"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1384,6 +1596,8 @@ var countryData = {
         iso2: "IQ",
         iso3: "IRQ",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1397,6 +1611,8 @@ var countryData = {
         iso2: "IE",
         iso3: "IRL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1410,6 +1626,8 @@ var countryData = {
         iso2: "IM",
         iso3: "IMN",
         isClicked: false,
+        countryAbbreviations: ["Mann"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1423,6 +1641,8 @@ var countryData = {
         iso2: "IL",
         iso3: "ISR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1436,6 +1656,8 @@ var countryData = {
         iso2: "IT",
         iso3: "ITA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1449,6 +1671,8 @@ var countryData = {
         iso2: "JM",
         iso3: "JAM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1462,6 +1686,8 @@ var countryData = {
         iso2: "JP",
         iso3: "JPN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1475,6 +1701,8 @@ var countryData = {
         iso2: "JE",
         iso3: "JEY",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1488,6 +1716,8 @@ var countryData = {
         iso2: "JO",
         iso3: "JOR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1501,6 +1731,8 @@ var countryData = {
         iso2: "KZ",
         iso3: "KAZ",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1514,6 +1746,8 @@ var countryData = {
         iso2: "KE",
         iso3: "KEN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1527,6 +1761,8 @@ var countryData = {
         iso2: "KI",
         iso3: "KIR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1535,11 +1771,13 @@ var countryData = {
     },
     PRK: {
         country: ["Korea, Democratic Peoples Republic of"],
-        capital: [""],
+        capital: ["Pyongyang"],
         flag: ["KP"],
         iso2: "KP",
         iso3: "PRK",
         isClicked: false,
+        countryAbbreviations: [North Korea],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1548,11 +1786,13 @@ var countryData = {
     },
     KOR: {
         country: ["Korea, Republic of"],
-        capital: [""],
+        capital: ["Seoul"],
         flag: ["KR"],
         iso2: "KR",
         iso3: "KOR",
         isClicked: false,
+        countryAbbreviations: [South Korea],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1566,6 +1806,8 @@ var countryData = {
         iso2: "KW",
         iso3: "KWT",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1579,6 +1821,8 @@ var countryData = {
         iso2: "KG",
         iso3: "KGZ",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1587,11 +1831,13 @@ var countryData = {
     },
     LAO: {
         country: ["Lao Peoples Democratic Republic"],
-        capital: [""],
+        capital: ["Vientiane"],
         flag: ["LA"],
         iso2: "LA",
         iso3: "LAO",
         isClicked: false,
+        countryAbbreviations: ["Laos"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1605,6 +1851,8 @@ var countryData = {
         iso2: "LV",
         iso3: "LVA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1618,6 +1866,8 @@ var countryData = {
         iso2: "LB",
         iso3: "LBN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1631,6 +1881,8 @@ var countryData = {
         iso2: "LS",
         iso3: "LSO",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1644,6 +1896,8 @@ var countryData = {
         iso2: "LR",
         iso3: "LBR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1657,6 +1911,8 @@ var countryData = {
         iso2: "LY",
         iso3: "LBY",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1670,6 +1926,8 @@ var countryData = {
         iso2: "LI",
         iso3: "LIE",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1683,6 +1941,8 @@ var countryData = {
         iso2: "LT",
         iso3: "LTU",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1691,11 +1951,13 @@ var countryData = {
     },
     LUX: {
         country: ["Luxembourg"],
-        capital: ["Luxembourg"],
+        capital: ["Luxembourg City"],
         flag: ["LU"],
         iso2: "LU",
         iso3: "LUX",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1709,6 +1971,8 @@ var countryData = {
         iso2: "MO",
         iso3: "MAC",
         isClicked: false,
+        countryAbbreviations: ["Macau"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1717,11 +1981,13 @@ var countryData = {
     },
     MKD: {
         country: ["Macedonia, the Former Yugoslav Republic of"],
-        capital: [""],
+        capital: ["Skopje"],
         flag: ["MK"],
         iso2: "MK",
         iso3: "MKD",
         isClicked: false,
+        countryAbbreviations: ["Macedonia"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1735,6 +2001,8 @@ var countryData = {
         iso2: "MG",
         iso3: "MDG",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1748,6 +2016,8 @@ var countryData = {
         iso2: "MW",
         iso3: "MWI",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1761,6 +2031,8 @@ var countryData = {
         iso2: "MY",
         iso3: "MYS",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1769,11 +2041,13 @@ var countryData = {
     },
     MDV: {
         country: ["Maldives"],
-        capital: ["MalÃ©"],
+        capital: ["Male"],
         flag: ["MV"],
         iso2: "MV",
         iso3: "MDV",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1787,6 +2061,8 @@ var countryData = {
         iso2: "ML",
         iso3: "MLI",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1800,6 +2076,8 @@ var countryData = {
         iso2: "MT",
         iso3: "MLT",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1813,6 +2091,8 @@ var countryData = {
         iso2: "MH",
         iso3: "MHL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1826,6 +2106,8 @@ var countryData = {
         iso2: "MQ",
         iso3: "MTQ",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1839,6 +2121,8 @@ var countryData = {
         iso2: "MR",
         iso3: "MRT",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1852,6 +2136,8 @@ var countryData = {
         iso2: "MU",
         iso3: "MUS",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1865,6 +2151,8 @@ var countryData = {
         iso2: "YT",
         iso3: "MYT",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1878,6 +2166,8 @@ var countryData = {
         iso2: "MX",
         iso3: "MEX",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1886,11 +2176,13 @@ var countryData = {
     },
     FSM: {
         country: ["Micronesia, Federated States of"],
-        capital: [""],
+        capital: ["Palikir"],
         flag: ["FM"],
         iso2: "FM",
         iso3: "FSM",
         isClicked: false,
+        countryAbbreviations: ["Mironesia"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1899,11 +2191,13 @@ var countryData = {
     },
     MDA: {
         country: ["Moldova, Republic of"],
-        capital: [""],
+        capital: ["Chisinau"],
         flag: ["MD"],
         iso2: "MD",
         iso3: "MDA",
         isClicked: false,
+        countryAbbreviations: ["Moldova"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1917,6 +2211,8 @@ var countryData = {
         iso2: "MC",
         iso3: "MCO",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1930,6 +2226,8 @@ var countryData = {
         iso2: "MN",
         iso3: "MNG",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1943,6 +2241,8 @@ var countryData = {
         iso2: "ME",
         iso3: "MNE",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1956,6 +2256,8 @@ var countryData = {
         iso2: "MS",
         iso3: "MSR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1969,6 +2271,8 @@ var countryData = {
         iso2: "MA",
         iso3: "MAR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1982,6 +2286,8 @@ var countryData = {
         iso2: "MZ",
         iso3: "MOZ",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -1995,6 +2301,8 @@ var countryData = {
         iso2: "MM",
         iso3: "MMR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2008,6 +2316,8 @@ var countryData = {
         iso2: "NA",
         iso3: "NAM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2021,6 +2331,8 @@ var countryData = {
         iso2: "NR",
         iso3: "NRU",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2034,6 +2346,8 @@ var countryData = {
         iso2: "NP",
         iso3: "NPL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2047,6 +2361,8 @@ var countryData = {
         iso2: "NL",
         iso3: "NLD",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2055,11 +2371,13 @@ var countryData = {
     },
     NCL: {
         country: ["New Caledonia"],
-        capital: ["NoumÃ©a"],
+        capital: ["Noumea"],
         flag: ["NC"],
         iso2: "NC",
         iso3: "NCL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2073,6 +2391,8 @@ var countryData = {
         iso2: "NZ",
         iso3: "NZL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2086,6 +2406,8 @@ var countryData = {
         iso2: "NI",
         iso3: "NIC",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2099,6 +2421,8 @@ var countryData = {
         iso2: "NE",
         iso3: "NER",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2112,6 +2436,8 @@ var countryData = {
         iso2: "NG",
         iso3: "NGA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2125,6 +2451,8 @@ var countryData = {
         iso2: "NU",
         iso3: "NIU",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2138,6 +2466,8 @@ var countryData = {
         iso2: "NF",
         iso3: "NFK",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2151,6 +2481,8 @@ var countryData = {
         iso2: "MP",
         iso3: "MNP",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2164,6 +2496,8 @@ var countryData = {
         iso2: "NO",
         iso3: "NOR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2177,6 +2511,8 @@ var countryData = {
         iso2: "OM",
         iso3: "OMN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2190,6 +2526,8 @@ var countryData = {
         iso2: "PK",
         iso3: "PAK",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2203,6 +2541,8 @@ var countryData = {
         iso2: "PW",
         iso3: "PLW",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2211,11 +2551,13 @@ var countryData = {
     },
     PSE: {
         country: ["Palestine, State of"],
-        capital: [""],
+        capital: ["East Jerusalem"],
         flag: ["PS"],
         iso2: "PS",
         iso3: "PSE",
         isClicked: false,
+        countryAbbreviations: ["Palestine"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2229,6 +2571,8 @@ var countryData = {
         iso2: "PA",
         iso3: "PAN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2242,6 +2586,8 @@ var countryData = {
         iso2: "PG",
         iso3: "PNG",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2250,11 +2596,13 @@ var countryData = {
     },
     PRY: {
         country: ["Paraguay"],
-        capital: ["AsunciÃ³n"],
+        capital: ["Asuncion"],
         flag: ["PY"],
         iso2: "PY",
         iso3: "PRY",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2268,6 +2616,8 @@ var countryData = {
         iso2: "PE",
         iso3: "PER",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2281,6 +2631,8 @@ var countryData = {
         iso2: "PH",
         iso3: "PHL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2294,6 +2646,8 @@ var countryData = {
         iso2: "PN",
         iso3: "PCN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2307,6 +2661,8 @@ var countryData = {
         iso2: "PL",
         iso3: "POL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2320,6 +2676,8 @@ var countryData = {
         iso2: "PT",
         iso3: "PRT",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2333,6 +2691,8 @@ var countryData = {
         iso2: "PR",
         iso3: "PRI",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2346,6 +2706,8 @@ var countryData = {
         iso2: "QA",
         iso3: "QAT",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2359,6 +2721,8 @@ var countryData = {
         iso2: "RE",
         iso3: "REU",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2372,6 +2736,8 @@ var countryData = {
         iso2: "RO",
         iso3: "ROU",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2385,6 +2751,8 @@ var countryData = {
         iso2: "RU",
         iso3: "RUS",
         isClicked: false,
+        countryAbbreviations: ["Russia"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2398,6 +2766,8 @@ var countryData = {
         iso2: "RW",
         iso3: "RWA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2406,11 +2776,13 @@ var countryData = {
     },
     BLM: {
         country: ["Saint Barthelemy"],
-        capital: [""],
+        capital: ["Gustavia"],
         flag: ["BL"],
         iso2: "BL",
         iso3: "BLM",
         isClicked: false,
+        countryAbbreviations: [St Barts, St Barths],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2424,6 +2796,8 @@ var countryData = {
         iso2: "SH",
         iso3: "SHN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2437,6 +2811,8 @@ var countryData = {
         iso2: "KN",
         iso3: "KNA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2450,6 +2826,8 @@ var countryData = {
         iso2: "LC",
         iso3: "LCA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2458,11 +2836,13 @@ var countryData = {
     },
     MAF: {
         country: ["Saint Martin (French part)"],
-        capital: [""],
+        capital: ["Marigot"],
         flag: ["MF"],
         iso2: "MF",
         iso3: "MAF",
         isClicked: false,
+        countryAbbreviations: [Saint Martin],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2476,6 +2856,8 @@ var countryData = {
         iso2: "PM",
         iso3: "SPM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2489,6 +2871,8 @@ var countryData = {
         iso2: "VC",
         iso3: "VCT",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2502,6 +2886,8 @@ var countryData = {
         iso2: "WS",
         iso3: "WSM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2510,11 +2896,13 @@ var countryData = {
     },
     SMR: {
         country: ["San Marino"],
-        capital: ["San Marino"],
+        capital: ["City of San Marino"],
         flag: ["SM"],
         iso2: "SM",
         iso3: "SMR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [San Marino City],
         guessed: {
             country: false,
             capital: false,
@@ -2523,11 +2911,13 @@ var countryData = {
     },
     STP: {
         country: ["Sao Tome and Principe"],
-        capital: [""],
+        capital: ["Sao Tome"],
         flag: ["ST"],
         iso2: "ST",
         iso3: "STP",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2541,6 +2931,8 @@ var countryData = {
         iso2: "SA",
         iso3: "SAU",
         isClicked: false,
+        countryAbbreviations: ["KSA"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2554,6 +2946,8 @@ var countryData = {
         iso2: "SN",
         iso3: "SEN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2567,6 +2961,8 @@ var countryData = {
         iso2: "RS",
         iso3: "SRB",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2580,6 +2976,8 @@ var countryData = {
         iso2: "SC",
         iso3: "SYC",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2593,6 +2991,8 @@ var countryData = {
         iso2: "SL",
         iso3: "SLE",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2606,6 +3006,8 @@ var countryData = {
         iso2: "SG",
         iso3: "SGP",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2614,11 +3016,13 @@ var countryData = {
     },
     SXM: {
         country: ["Sint Maarten (Dutch part)"],
-        capital: [""],
+        capital: ["Phillipsburg"],
         flag: ["SX"],
         iso2: "SX",
         iso3: "SXM",
         isClicked: false,
+        countryAbbreviations: [Sint Maarten],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2632,6 +3036,8 @@ var countryData = {
         iso2: "SK",
         iso3: "SVK",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2645,6 +3051,8 @@ var countryData = {
         iso2: "SI",
         iso3: "SVN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2658,6 +3066,8 @@ var countryData = {
         iso2: "SB",
         iso3: "SLB",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2671,6 +3081,8 @@ var countryData = {
         iso2: "SO",
         iso3: "SOM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2684,6 +3096,8 @@ var countryData = {
         iso2: "ZA",
         iso3: "ZAF",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2697,6 +3111,8 @@ var countryData = {
         iso2: "GS",
         iso3: "SGS",
         isClicked: false,
+        countryAbbreviations: ["SGSSI"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2710,6 +3126,8 @@ var countryData = {
         iso2: "SS",
         iso3: "SSD",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2723,6 +3141,8 @@ var countryData = {
         iso2: "ES",
         iso3: "ESP",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2736,6 +3156,8 @@ var countryData = {
         iso2: "LK",
         iso3: "LKA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2749,6 +3171,8 @@ var countryData = {
         iso2: "SD",
         iso3: "SDN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2762,6 +3186,8 @@ var countryData = {
         iso2: "SR",
         iso3: "SUR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2775,6 +3201,8 @@ var countryData = {
         iso2: "SJ",
         iso3: "SJM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2788,6 +3216,8 @@ var countryData = {
         iso2: "SZ",
         iso3: "SWZ",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2801,6 +3231,8 @@ var countryData = {
         iso2: "SE",
         iso3: "SWE",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2814,6 +3246,8 @@ var countryData = {
         iso2: "CH",
         iso3: "CHE",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2822,11 +3256,13 @@ var countryData = {
     },
     SYR: {
         country: ["Syrian Arab Republic"],
-        capital: [""],
+        capital: ["Damascus"],
         flag: ["SY"],
         iso2: "SY",
         iso3: "SYR",
         isClicked: false,
+        countryAbbreviations: ["Syria"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2835,11 +3271,13 @@ var countryData = {
     },
     TWN: {
         country: ["Taiwan, Province of China"],
-        capital: [""],
+        capital: ["Taipei"],
         flag: ["TW"],
         iso2: "TW",
         iso3: "TWN",
         isClicked: false,
+        countryAbbreviations: ["Taiwan"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2853,6 +3291,8 @@ var countryData = {
         iso2: "TJ",
         iso3: "TJK",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2866,6 +3306,8 @@ var countryData = {
         iso2: "TH",
         iso3: "THA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2874,11 +3316,13 @@ var countryData = {
     },
     TLS: {
         country: ["Timor-Leste"],
-        capital: [""],
+        capital: ["Dili"],
         flag: ["TL"],
         iso2: "TL",
         iso3: "TLS",
         isClicked: false,
+        countryAbbreviations: [East Timor],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2887,11 +3331,13 @@ var countryData = {
     },
     TGO: {
         country: ["Togo"],
-        capital: ["LomÃ©"],
+        capital: ["Lome"],
         flag: ["TG"],
         iso2: "TG",
         iso3: "TGO",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2905,6 +3351,8 @@ var countryData = {
         iso2: "TK",
         iso3: "TKL",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2913,11 +3361,13 @@ var countryData = {
     },
     TON: {
         country: ["Tonga"],
-        capital: ["NukuÊ»alofa"],
+        capital: ["Nuku'alofa"],
         flag: ["TO"],
         iso2: "TO",
         iso3: "TON",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2931,6 +3381,8 @@ var countryData = {
         iso2: "TT",
         iso3: "TTO",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2944,6 +3396,8 @@ var countryData = {
         iso2: "TN",
         iso3: "TUN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2957,6 +3411,8 @@ var countryData = {
         iso2: "TR",
         iso3: "TUR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2970,6 +3426,8 @@ var countryData = {
         iso2: "TM",
         iso3: "TKM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2983,6 +3441,8 @@ var countryData = {
         iso2: "TC",
         iso3: "TCA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -2996,6 +3456,8 @@ var countryData = {
         iso2: "TV",
         iso3: "TUV",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3004,11 +3466,13 @@ var countryData = {
     },
     VIR: {
         country: ["US Virgin Islands"],
-        capital: [""],
+        capital: ["Charlotte Amalie"],
         flag: ["VI"],
         iso2: "VI",
         iso3: "VIR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3022,6 +3486,8 @@ var countryData = {
         iso2: "UG",
         iso3: "UGA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3035,6 +3501,8 @@ var countryData = {
         iso2: "UA",
         iso3: "UKR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3048,6 +3516,8 @@ var countryData = {
         iso2: "AE",
         iso3: "ARE",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3061,6 +3531,8 @@ var countryData = {
         iso2: "GB",
         iso3: "GBR",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3069,11 +3541,13 @@ var countryData = {
     },
     TZA: {
         country: ["United Republic of Tanzania"],
-        capital: [""],
+        capital: ["Dodoma"],
         flag: ["TZ"],
         iso2: "TZ",
         iso3: "TZA",
         isClicked: false,
+        countryAbbreviations: ["Tanzania"],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3087,6 +3561,8 @@ var countryData = {
         iso2: "US",
         iso3: "USA",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3100,6 +3576,8 @@ var countryData = {
         iso2: "UM",
         iso3: "UMI",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3113,6 +3591,8 @@ var countryData = {
         iso2: "UY",
         iso3: "URY",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3126,6 +3606,8 @@ var countryData = {
         iso2: "UZ",
         iso3: "UZB",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3139,6 +3621,8 @@ var countryData = {
         iso2: "VU",
         iso3: "VUT",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3152,6 +3636,8 @@ var countryData = {
         iso2: "VE",
         iso3: "VEN",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3159,12 +3645,14 @@ var countryData = {
         }
     },
     VNM: {
-        country: ["Viet Nam"],
-        capital: [""],
+        country: ["Vietnam"],
+        capital: ["Hanoi"],
         flag: ["VN"],
         iso2: "VN",
         iso3: "VNM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3178,6 +3666,8 @@ var countryData = {
         iso2: "WF",
         iso3: "WLF",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3186,11 +3676,13 @@ var countryData = {
     },
     ESH: {
         country: ["Western Sahara"],
-        capital: [""],
+        capital: ["Laayoune"],
         flag: ["EH"],
         iso2: "EH",
         iso3: "ESH",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3204,6 +3696,8 @@ var countryData = {
         iso2: "YE",
         iso3: "YEM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3217,6 +3711,8 @@ var countryData = {
         iso2: "ZM",
         iso3: "ZMB",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3230,6 +3726,8 @@ var countryData = {
         iso2: "ZW",
         iso3: "ZWE",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3243,6 +3741,8 @@ var countryData = {
     	iso2: "XK",
     	iso3: "RKS",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3256,6 +3756,8 @@ var countryData = {
     	iso2: "XS",
     	iso3: "XSM",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
@@ -3269,6 +3771,8 @@ var countryData = {
     	iso2: "XC",
     	iso3: "XNC",
         isClicked: false,
+        countryAbbreviations: [],
+        capitalAbbreviations: [],
         guessed: {
             country: false,
             capital: false,
